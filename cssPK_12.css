@@ -1,0 +1,144 @@
+        
+ 
+.logo{
+    height: 100px;
+    width: 100px;
+    left: -54.838134765625px;
+    top: -26px;
+    border-radius: 0px;
+}
+    
+.namaWeb{
+    /* height: 45px;
+    left: 110px; */
+    top: 30px;
+    font-family: 'Lexend Exa';
+    
+    font-style: normal;
+    font-size: 30px;
+    /* identical to box height */
+    /* color: #000000;
+    mix-blend-mode: normal; */
+}
+
+a{
+    display: flex;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px;
+    color: #000000;
+    text-decoration: none;
+} 
+    
+li{
+    list-style: none;
+    display: inline-block;
+}
+    
+.images{
+    left: 110px;
+    top: 359px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    float: left;
+}
+    
+.judul{
+    height: 160px;
+    left: 0px;
+    background-color: #ED4A4A;
+}
+    
+.content {
+    height: 347px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: justify;
+    color: #000000;
+}
+    
+    .content{
+    position: absolute;
+    margin:100px;
+    }
+
+.judulbuku{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 108px;
+    color: white;
+    padding-left: 40px;
+}
+
+.isi{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: justify;
+    color: #000000;
+    text-indent: 0.7in;
+    margin-top: 35px;
+}
+
+.inside{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: justify;
+    color: #000000;
+    text-indent: 0.7in; 
+}
+
+.sub{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: justify;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.motiv{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    margin-top: 35px;
+}
+
+hr{
+    margin-top: 100px;
+}
+
+nav{
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-size: 30px
+}
+
+.pesan{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: justify;
+    color: #000000;
+    text-indent: 0.7in;
+    margin-top: 35px;
+}

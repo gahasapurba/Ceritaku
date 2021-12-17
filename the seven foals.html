@@ -1,0 +1,205 @@
+<!--
+    Kelompok: 12
+    Tanggal: 26 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>The seven Foals</title>           
+    <style>
+        <style>
+ 
+p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+</style>
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_inggris1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                The seen Foals
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="English/The seven foals.mp3" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/sevenfoals.png" alt="--buatgambardisini--"> 
+
+            <p align="justify">
+                There was once upon a time a couple of poor folks who lived in a wretched hut, far away from everyone else, in a wood. They only just managed to live from hand to mouth, and had great difficulty in doing even so much as that, but they had three sons, and the youngest of them was called Cinderlad, for he did nothing else but lie and poke about among the ashes.
+            </p>
+            <p align="justify">
+                One day the eldest lad said that he would go out to earn his living; he soon got leave to do that, and set out on his way into the world. He walked on and on for the whole day, and when night was beginning to fall he came to a royal palace. The King was standing outside on the steps, and asked where he was going.
+            </p>
+            <p align="justify">
+                ‘Oh, I am going about seeking a place, my father,’ said the youth.
+                ‘Will you serve me, and watch my seven foals?’ asked the King. ‘If you can watch them for a whole day and tell me at night what they eat and drink, you shall have the Princess and half my kingdom, but if you cannot, I will cut three red stripes on your back.’
+            </p>
+            <p align="justify">
+                The youth thought that it was very easy work to watch the foals, and that he could do it well enough.
+                Next morning, when day was beginning to dawn, the King’s Master of the Horse let out the seven foals; and they ran away, and the youth after them just as it chanced, over hill and dale, through woods end bogs.
+            </p>
+            <p align="justify">
+                When the youth had run thus for a long time he began to be tired, and when he had held on a little longer he was heartily weary of watching at all, and at the same moment he came to a cleft in a rock where an old woman was sitting spinning with her distaff in her hand.
+            </p>
+            <p align="justify">
+                As soon as she caught sight of the youth, who was running after the foals till the perspiration streamed down his face, she cried:
+                ‘Come hither, come hither, my handsome son, and let me comb your hair for you.
+                The lad was willing enough, so he sat down in the cleft of the rock beside the old hag, and laid his head on her knees, and she combed his hair all day while he lay there and gave himself up to idleness.
+            </p>
+            <p align="justify">
+                When evening was drawing near, the youth wanted to go
+                ‘I may just as well go straight home again,’ said he, ‘for it is no use to go to the King’s palace.’
+                ‘Wait till it is dusk,’ said the old hag, ‘and then the King’s foals will pass by this place again, and you can run home with them; no one will ever know that you have been lying here all day instead of watching the foals.’
+            </p>
+            <p align="justify">
+                So when they came she gave the lad a bottle of water and a bit of moss, and told him to show these to the King and say that this was what his seven foals ate and drank.
+                ‘Have you watched faithfully and well the whole day long?’ said the King, when the lad came into his presence in the evening.
+            </p>
+            <p align="justify">
+                ‘Yes, that I have!’ said the youth.
+                ‘Then you are able to tell me what it is that my seven foals eat and drink,’ said the King.
+                So the youth produced the bottle of water and the bit of moss which he had got from the old woman, saying:
+                ‘Here you see their meat, and here you see their drink.’
+            </p>
+            <p align="justify">
+                Then the King knew how his watching had been done, and fell into such a rage that he ordered his people to chase the youth back to his own home at once; but first they were to cut three red stripes in his back, and rub salt into them.
+                When the youth reached home again, anyone can imagine what a state of mind he was in. He had gone out once to seek a place, he said, but never would he do such a thing again.
+            </p>
+            <p align="justify">
+                Next day the second son said that he would now go out into the world to seek his fortune. His father and mother said ‘No,’ and bade him look at his brother’s back, but the youth would not give up his design, and stuck to it, and after a long, long time he got leave to go, and set forth on his way. 
+            </p>
+            <p align="justify">
+                When he had walked all day he too came to the King’s palace, and the King was standing outside on the steps, and asked where he was going; and when the youth replied that he was going about in search of a place, the King said that he might enter into his service and watch his seven foals.
+            </p>
+            <p align="justify">
+                Then the King promised him the same punishment and the same reward that he had promised his brother.
+                The youth at once consented to this and entered into the King’s service, for he thought he could easily watch the foals and inform the King what they ate and drank.
+            </p>
+            <p align="justify">
+                In the grey light of dawn the Master of the Horse let out the seven foals, and off they went again over hill and dale, and off went the lad after them. But all went with him as it had gone with his brother. When he had run after the foals for a long, long time and was hot and tired, he passed by a cleft in the rock where an old woman was sitting spinning with a distaff, and she called to him:
+            </p>
+            <p align="justify">
+               ‘Come hither, come hither, my handsome son, and let me comb your hair.’ 
+                The youth liked the thought of this, let the foals run where they chose, and seated himself in the cleft of the rock by the side of the old hag. So there he sat with his head on her lap, taking his ease the livelong day.
+                The foals came back in the evening, and then he too got a bit of moss and a bottle of water from the old hag, which things he was to show to the King. But when the King asked the youth: ‘Can you tell me what my seven foals eat and drink?’  
+            </p>
+            <p align="justify">
+                and the youth showed him the bit of moss and the bottle of water, and said: ‘Yes here may you behold their meat, and here their drink,’ the King once more became wroth, and commanded that three red stripes should be cut on the lad’s back, that salt should be strewn upon them, and that he should then be instantly chased back to his own home. 
+            </p>
+            <p align="justify">
+                So when the youth got home again he too related all that had happened to him, and he too said that he had gone out in search of a place once, but that never would he do it again.
+                On the third day Cinderlad wanted to set out. He had a fancy to try to watch the seven foals himself, he said.
+            </p>
+            <p align="justify">
+                The two others laughed at him, and mocked him. ‘What I when all went so ill with us, do you suppose that you are going to succeed? You look like succeeding—you who have never done anything else but lie and poke about among the ashes!’ said they.
+                ‘Yes, I will go too,’ said Cinderlad, ‘for I have taken it into my head.’
+            </p>
+            <p align="justify">
+                The two brothers laughed at him, and his father and mother begged him not to go, but all to no purpose, and Cinderlad set out on his way. So when he had walked the whole day, he too came to the King’s palace as darkness began to fall.
+                There stood the King outside on the steps, and he asked whither he was bound.
+            </p>
+            <p align="justify">
+                ‘I am walking about in search of a place,’ said Cinderlad.
+                ‘From whence do you come, then?’ inquired the King, for by this time he wanted to know a little more about the men before he took any of them into his service.
+                So Cinderlad told him whence he came, and that he was brother to the two who had watched the seven foals for the King, and then he inquired if he might be allowed to try to watch them on the following day.
+            </p>
+            <p align="justify">
+               ‘Oh, shame on them!’ said the King, for it enraged him even to think of them. ‘If you are brother to those two, you too are not good for much. I have had enough of such fellows.’
+               ‘Well, but as I have come here, you might just give me leave to make the attempt,’ said Cinderlad.
+               ‘Oh, very well, if you are absolutely determined to have your back flayed, you may have your own way if you will,’ said the King.
+               ‘I would much rather have the Princess,’ said Cinderlad.
+            </p>
+            <p align="justify">
+                When he returned to the marriage-feast with the seven princes, the King was so joyful that he both kissed Cinderlad and clapped him on the back, and his bride was still more delighted with him than she had been before. ‘Half my kingdom is your already,’ said the King, ‘and the other half shall be yours after my death, for my sons can get countries and kingdoms for themselves now that they have become princes again.’
+                Therefore, as all may well believe, there was joy and merriment at that wedding.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,161 @@
+<!--
+    Kelompok: 12
+    Tanggal: 26 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>Herod the Great</title>           
+    <style>
+        <style>
+ 
+
+p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+</style>
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_inggris1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                Herod the Great
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="English/herod-the-great.mp3" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/herod.png" alt="--buatgambardisini--"> 
+
+            <p align="justify">
+                Even if you are not a Christian, I bet you know the story about the birth of Jesus. And if you are brought up in the Christian tradition, perhaps you have acted in the school Nativity play. Maybe you were an angel, or a shepherd, or a sheep, or even Joseph or Mary. You will know that Jesus was born in a stable in Bethlehem. This happened because Mary and Joseph were visiting the town and there was no room at the inn.
+            </p>
+            <p align="justify">
+                That familiar story is the one told in the Bible by St. Luke. But actually the Bible gives two versions of the Nativity story. It is in the other version that King Herod looms large. St. Matthew tells us that Jesus was born in Bethlehem in Judea. But Matthew implies that Bethlehem was where Mary and Joseph lived. There’s no mention of a stable or any shepherds. But he does tell us about King Herod and the Wise Men.
+            </p>
+            <p align="justify">
+                According to Matthew, the wise men from the East saw a special star in the sky. They followed the star to Judea and came to see King Herod in the city of Jerusalem. There they asked him: “Where is he who has been born King of the Jews? For we have seen his star in the East, and have come to worship him.”
+            </p>
+            <p align="justify">
+               This was not the most tactful question to ask King Herod. Naturally he did not like the idea of a rival King being born. He wanted his own sons to inherit his throne. Herod asked his scribes and advisors about this Christ King. They told him of a prophesy that the King would be born in Bethlehem, in Judea.
+            </p>
+            <p align="justify">
+                 Herod summoned the Wise Men back before him and told them to go to Bethlehem and to search for the baby King. He added, rather cunningly: “When you have found him bring me word, that I too may come and worship him.”
+                 But of course he had no intention of worshipping the baby Jesus. He meant to have him killed.
+            </p>
+            <p align="justify">
+                The Wise Men headed off for Bethlehem and were delighted to see that the star was travelling before them until it came to rest over the place where the child was. They went into the house and found Mary and the baby. They fell down and worshipped him. Opening their treasures, they offered him gifts of gold, frankincense and myrrh.
+            </p>
+            <p align="justify">
+                Fortunately the Wise Men did not report back to King Herod. They were warned of danger in a dream, and went back home by a different route. An Angel appeared to Joseph in a dream and said: “Rise, take the child and his mother, and flee to Egypt, and remain there until I tell you; for Herod is about to search for the child, to destroy him.”
+            </p>
+            <p align="justify">
+                And so the family got up in the middle of the night, slipped out of Bethlehem, and went to hide in Egypt. When Herod understood that he had been tricked by the Wise Men, he flew into a furious rage. He sent soldiers to Bethlehem to kill all the boy children who were under two years old. This terrible crime is known as the ‘Massacre of the Innocents.’
+                And so it is clear from the Bible that King Herod was a cunning and evil tyrant.
+            </p>
+            <p align="justify">
+                Although history outside the Bible does not mention the ‘Massacre of the Innocents,’ it is pretty much in agreement about Herod’s character. He was a paranoid murderer who bumped off members of his own family. But on the world stage, he was a brilliant diplomat. He kept Judea semi-independent from the Romans, and used his wealth to rebuild his capital, Jerusalem, into a magnificent city. Despite being a baddy, he is known for his achievements as Herod the Great.
+            </p>
+            <p align="justify">
+               So who was Herod the Great? To work backwards, he died around the time that Mary gave birth to Jesus. In fact, if you know a little bit about Herod’s life, you can get a feel for the world into which Jesus was born. Herod lived at the same time as Queen Cleopatra of Egypt and his life is entwined with her story. 
+            </p>
+            <p align="justify">
+                Like Cleopatra, he was only able to sit on his throne because the Romans allowed him to do so. He was what is known as a client King. All his power depended on staying friends with the Romans. But the problem was, which Romans? Back in Rome, the democracy known as a Republic was falling apart and Romans were fighting each other.
+            </p>
+            <p align="justify">
+                In Rome, Julius Caesar had been elected dictator, and then murdered in 44 BC. For a while the power of Rome was divided among Julius Caesar’s friends. One of these, a general called Mark Antony, came out to the East. In Egypt, Mark Antony fell madly in love with Queen Cleopatra. It’s a romance that has been written up by Shakespeare and retold in an epic Hollywood movie.
+            </p>
+            <p align="justify">
+                His satisfaction, however, did not last for long. The Romans’ fiercest enemies, the Parthians, invaded Jerusalem. Herod’s brother was killed and he himself had to flee to Egypt, to Queen Cleopatra. From there he sailed to Rome.
+            </p>
+            <p align="justify">
+                The two most powerful Romans, Mark Antony and Octavian, led him into the Senate where he was declared, ‘King of an Ally, and Friend of the Roman People.’ After that, Herod and Mark Antony went back to the near East and reconquered first Galilee and then Judea. Herod was back on his throne in his capital Jerusalem, and even more powerful than before.
+            </p>
+            <p align="justify">
+                But in Rome, people were very uncomfortable about rumours of a noble Roman gallivanting about with an exotic Eastern Queen. The romance of Mark Antony and Cleopatra became a scandal. Antony fell out of favour, and Octavian sent out an army to fight him. Herod had to decide which side to back.
+            </p>
+            <p align="justify">
+                He chose to stay loyal to his old friend Antony. Unfortunately, he picked the losing side. Antony and Cleopatra sent their ships into a sea battle against Octavian at Actium in the year 31 BC. They were totally defeated. Both committed suicide.
+            </p>
+            <p align="justify">
+                Things looked bad for Herod. Fearing the worst, he went to see Octavian on the Greek Island of Rhodes. He humbly laid his crown before Octavian’s feet and said: “Consider not whose friend I have been, but what sort of friend I am.”
+            </p>
+            <p align="justify">
+                Octavian and prosperity
+                Octavian was impressed, and he placed Herod’s crown back on his head. From then on, Herod’s position was secure. Octavian changed his name to Augustus and became the first Emperor of Rome and the most powerful man on earth. He was a staunch friend of Herod and increased the size of his kingdom. Such was the friendship that Herod sent two of his sons to Rome where they grew up and were educated in Augustus’ house. At home, Herod began to rebuild Jerusalem on a magnificent scale. His greatest project of all was the new Temple.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

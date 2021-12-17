@@ -1,0 +1,196 @@
+<!--
+    Kelompok: 12
+    Tanggal: 26 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>1001 Nights</title>           
+    <style>
+        <style>
+ 
+  
+p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+</style>
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_inggris1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                1001 Nights
+            </p> 
+             <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="English/1001nights.mp3" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/1001 nights.png" alt="--buatgambardisini--"> 
+
+            <p align="justify">
+                The world’s most famous collection of magical stories originated in Persia and only later became known in the West as the “Arabian” Nights. The collection includes stories, within stories, within stories. This is the story that wraps around them all.
+            </p>
+            <p align="justify">
+                A terrible sultan marries a new bride every night, and in the morning he executes her. Only Scheherazade, the greatest story-teller the world has known, has a chance to soften the heart of the man with a tyrannical grudge against all women.
+            </p>
+            <p align="justify">
+                Praise be to Allah, the beneficent King, the creator of the universe, Lord of the three worlds, who set up the sky without pillars to hold it aloft, who stretched out the earth like a bed, and who filled the ocean like a bath. Lend me the art and the craft of she who outwitted a great king. Of she who for 1001 nights captivated the Shah, while she threaded her plots around him, the woman whose stories held conquered the all-powerful man, and prevented him from carrying out his terrible intent. I speak of her, Scheherazade, the greatest storyteller the world has ever known
+            </p>
+            <p align="justify">
+                She lived in a time of sorrow for the ruler of the land held in his heart an awful grudge against all women. This grudge had terrible consequences for every family in the land. But it was not always so. He began his reign with a kinder heart. His name was Shahryar, He was in the fullness of his youth and power, but as yet, without a wife.
+            </p>
+            <p align="justify">
+                One evening he stood with his younger brother, Prince Zaman, on the balcony of the palace, which overlooked the pleasure gardens. They watched a young serving girl as she stepped out to the fountain to fetch water.
+                Shahryar whispered: “See brother. Is she not as lovely as the moon and as graceful as a gazelle?”
+            </p>
+            <p align="justify">
+                But Zaman, replied: “Do not let your eyes deceive you. Although you are older than me, and more powerful, yet I am more experienced in the ways of women, for I already have a wife. I tell you no woman on earth has a pure and faithful heart. Each day I watch my Queen. I see her give a visiting prince such a look that makes my blood turn angry. But it does not stop there. She gives the chief chamberlain a cheeky smile that is quite inappropriate. Why, the day before I left my palace to pay honour to you, I saw her whispering to the cook! She brings nothing but shame upon me.“
+            </p>
+            <p align="justify">
+                Shahryar laughed: “My younger brother, you have been looking pale and ill of late. Now I know the cause. Jealousy is eating you up because you have such a lovely wife!”
+                At this Zaman became quite offended, but he replied in no more than a mutter: “My brother, you will learn for yourself in due time.”
+            </p>
+            <p align="justify">
+                Shahryar was ready to marry. It seemed that wherever he looked he saw a beautiful woman. But none so lovely as the one the two brothers encountered the very next day. They got up at dawn to go hunting. Just as the sun was spreading its gentle rays, they rode their horses side by side along the sea shore. Walking towards them, along the deserted beach, they saw a girl whose loveliness brought to mind the words:
+            </p>
+            <p align="justify">
+                “She rose like the morn, as she shone through the night.
+                When she unveiled her face, the sun grew bright.”
+                As the brothers drew near to her, she gave them the sort of smile that gladdens a man’s heart and Shahryar said to his brother: “I would not be ashamed to take her for my Queen.”
+            </p>
+            <p align="justify">
+                But no sooner had he spoken, than a huge wave came curling into the shore, and standing on top of the wave was a great genie. His skin was orange and his eyes blazing red.
+                As the wave broke into white foam, the genie leapt onto the beach, and seized the girl up in his hands. He turned his awful eyes on the brothers, and they were so full of fire that they feared his gaze might burn them up. Then he spoke. His voice was terrible, but his words showed that he intended them no harm:
+            </p>
+            <p align="justify">
+                “Hear me now and learn from my troubles. When I took this girl for my bride, I set her inside a trunk, and I placed the trunk inside another trunk, and that trunk inside yet another trunk – seven boxes in all, each with its own lock. And then I placed the sevenfold container at the bottom of the sea, so as to keep her faithful to me. But still she managed to escape, to flirt with strange men on the beach, and to bring shame upon me. If I, a genie with all the power of magic at my disposal cannot keep discipline over my bride, what hope have you mere men of doing so?”
+            </p>
+            <p align="justify">
+                As soon as he had issued this warning, both the genie and the girl spun round and round until they became a whirl wind that sped away across the sea.
+                For the rest of the day Shahryar was pale and brooding. By evening he had cheered up somewhat. As the brothers stood on the balcony overlooking the gardens, once again, he said:
+            </p>
+            <p align="justify">
+                “The remarkable occurrence of this morning has made a great impression on me. I see now that you are right. The genie has confirmed what you say. There was never one faithful woman on this earth. But I have thought deeply about this problem all day long, and I have formed a plan.
+                It was not long before his brother and everyone in the land found out what the Shah had in mind.
+            </p>
+            <p align="justify">
+                As he sat on his throne the next day, giving orders to his ministers about this and that, he sent for his chief minister, a man who had served him for many years, and who had two lovely daughters whom in time, we shall meet, Inshallah! God Willing!
+                He commanded the minister to bring a bride to him that very evening, and in the morning to take her way to be executed.
+            </p>
+            <p align="justify">
+                Each and every day he was to do the same, to bring another bride for him to marry, and in the morning to strike off her head. And so it came to pass for three years on end. There was not a family in the land that was not touched by this tragedy. The people cried out against their Shah, and called on Allah to destroy him and his reign utterly.
+            </p>
+            <p align="justify">
+                But his heart was relentless. By this terrible plan he made sure that none of his people would ever gather in a corner and gossip that his queen was faithless to him either in thought or deed.
+            </p>
+            <p align="justify">
+                Mothers wept or fled abroad with their daughters. At last there was hardly a woman left in the city who was of marriageable age. At last, one day, as the minster searched the city, he could not find a bride for the Shah that night. He returned home in sorrow and anxiety, for he was afraid for his own life when he failed that evening to present a new bride to the Shah.
+            </p>
+            <p align="justify">
+                Now he had two daughters, Scheherazade and Dunyazad [ending is long like - “ard’] The eldest had read all the books, legends and stories in the library of the palace. She knew a great many poems off by heart, and had studied philosophy and the arts. She was pleasant, polite, wise and witty. She saw that her father was looking sad and she quoted some lines of a poem to him:
+            </p>
+            <p align="justify">
+                “Tell whoso hath sorrow
+                Grief shall never last.
+                Even as joy hath no morrow
+                so woe shall go past”
+                When the minister heard these words from his daughter, he told her the cause of his sorrow from first to last. When she had heard it all Scheherazade exclaimed:
+            </p>
+            <p align="justify">
+                “Who long shall we endue this slaughter of women? I will tell you what is on my mind. Take me to the Shah this night. Let me be his bride. Either I shall live by my wits and save the daughters of this land, or I shall join those who have perished already.”
+            </p>
+            <p align="justify">
+                The minister heard these words, and although he greatly respected his daughter’s wisdom, he thought these words were the greatest foolishness he had ever heard. He would not hear of his beloved daughter risking her life in this way. He went to the Shah and confessed that he was unable to bring him any more brides, for there were none left in the land. Shah Shahryar sat thoughtfully on this thrown and said:
+            </p>
+            <p align="justify">
+                “None, but your own two daughters. Do not hide them from me, or it will cost you your head.”
+                And so it was, after long deliberation, and much persuasion from Scheherazade that he brought his own daughter to the Shah as his bride.
+                That night, when Scheherazade lifted the veil from her lovely face, the Shah was pleased with what he saw. But there wertears in her eyes.
+            </p>
+            <p align="justify">
+                “What troubles you?” asked the Shah, thinking that he knew the answer. But she replied not that she was afraid of what would happen to her in the morning, but that she was missing her sister. She begged that she could bring her to sleep with them that night, so that she would not be lonely. The Shah willingly agreed, and all went according to the plan that the ingenious Scheherazade had formed. Her sister Dunyazad slept on a couch at the foot of the royal bed, and towards morning, as she had been told to do by her sister, she awoke and said:
+            </p>
+            <p align="justify">
+                “Oh Scheherazade, I cannot sleep. Will you not tell me one of your wonderful stories? For there is not a soul on this earth who can spin a tale as delightful and delectable as yours?”
+                And Scheherazade stirred and said: “I too cannot sleep and I will tell you a tale with joy, if this great king will permit me.” The Shah, who was also sleepless and restless, was pleased with the prospect of hearing a tale. And so Scheherazade began to relate the first story of 1001 Nights.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+

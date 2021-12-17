@@ -1,0 +1,151 @@
+<!--
+    Kelompok: 12
+    Tanggal: __ November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>Asal Usul Nama Surabaya</title>                   
+    <style>
+ 
+
+p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+</style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_indonesia1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                Asal Usul Nama Surabaya
+            </p> 
+             <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="Indonesia/Asal Usul Kota Surabaya.mp3" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/surabaya.png" alt="--buatgambardisini--">            <!--Jangan Lupa Ganti-->
+            <p style="text-align: justify; ">                                             <!--Jangan Lupa Ganti-->
+               
+                Dahulu, di perairan sebelah utara Jawa Timur, hiduplah seekor baya atau buaya dan seekor sura (hiu) yang saling bermusuhan. Kedua binatang buas yang sama-sama tangkas, kuat, dan ganas tersebut hampir setiap saat berkelahi untuk memperebutkan mangsa. Mereka kerap bertarung hingga berhari-hari lamanya, namun tidak pernah ada yang kalah maupun menang. Meskipun perilaku kedua binatang buas ini kerap mengganggu ketenteraman, namun tak satu pun hewan yang berani menghentikan pertikaian mereka.
+            </p>
+            <p align="justify">
+                Suatu ketika, si Baya dan si Sura merasa bosan terus-terusan berkelahi. Mereka sepakat untuk berdamai.
+            </p>
+            <p align="justify">
+                “Hai, Baya. Aku sudah bosan terus-terusan berkelahi,” kata si Sura.
+                “Benar katamu. Aku pun merasa demikian,” jawab si Baya. “Lalu, apa yang harus kita lakukan untuk menghentikan permusuhan ini?”
+                “Hmmm... bagaimana kalau daerah kekuasaan kita bagi dua. Aku sepenuhnya berkuasa di dalam air. Semua mangsa yang ada di dalam air menjadi bagianku. Sementara kamu sepenuhnya berkuasa di daratan. Jadi, mangsamu hanya yang berada di daratan,” usul Sura. “Tapi, perlu kamu ketahui bahwa antara darat dan air yaitu adalah tempat yang dicapai air laut pada waktu pasang.”
+                
+
+            </p>
+            <p align="justify">
+                “Hai, Baya. Aku sudah bosan terus-terusan berkelahi,” kata si Sura.
+                “Benar katamu. Aku pun merasa demikian,” jawab si Baya. “Lalu, apa yang harus kita lakukan untuk menghentikan permusuhan ini?”
+                “Hmmm... bagaimana kalau daerah kekuasaan kita bagi dua. Aku sepenuhnya berkuasa di dalam air. Semua mangsa yang ada di dalam air menjadi bagianku. Sementara kamu sepenuhnya berkuasa di daratan. Jadi, mangsamu hanya yang berada di daratan,” usul Sura. “Tapi, perlu kamu ketahui bahwa antara darat dan air yaitu adalah tempat yang dicapai air laut pada waktu pasang.”
+                
+            </p>
+            <p align="justify">
+                “Hai, Sura. Berani-beraninya kamu memasuki wilayah kekuasaanku! Mengapa kamu melanggar perjanjian kita?” tanya si Baya dengan kesal.
+                “Siapa yang melanggar perjanjian? Hai, Baya, apakah kamu ingat isi perjanjian kita dulu bahwa akulah yang berkuasa di wilayah air? Bukankah sungai ini juga ada airnya?” kata si Sura.
+                Benar apa yang dikatakan si Sura. Tapi, si Baya tetap bersikeras ingin mempertahankan daerah kekuasaannya.
+                 
+            </p>
+            <p align="justify">
+                “Hai, Sura. Aku tahu kalau sungai ini ada airnya. Tapi, bukankah kamu lihat sendiri bila sungai ini berada di darat?” tanya si Baya, “Itu berarti sungai ini daerah kekuasaanku, sedangkan daerah kekuasaanmu ada di laut.”
+                Namun, si Sura tetap merasa bahwa alasannya yang paling kuat.
+                “Tidak bisa, Baya! Aku tidak pernah mengatakan bahwa air itu hanya ada di laut, tetapi air itu juga ada di sungai.”
+                
+            </p>
+            <p align="justify">
+                “Hai, Sura. Kamu memang sengaja mencari gara-gara. Aku tidak sebodoh yang kamu kira,” kata si Baya.
+                “Ha... ha... ha...," si Sura tertawa terbahak-bahak. “Hai, Baya. Aku tidak perduli kamu bodoh atau pintar. Yang jelas sungai ini adalah wilayah kekuasaanku!"
+                Merasa ditipu, si Baya pun meminta agar perjanjian itu dibatalkan dan menantang si Sura untuk saling mengadu kekuatan.
+                “Baiklah kalau begitu, Sura. Perjanjian kita batal! Yang penting sekarang, siapa yang lebih kuat di antara kita, dialah yang akan menjadi penguasa tunggal di wilayah ini,” tegas si Baya.
+                “Kamu menantangku berkelahi lagi, Baya? Siapa takut?” jawab si Sura.
+
+            </p>
+            <p align="justify">
+                Akhirnya, pertarungan sengit pun kembali terjadi antara kedua binatang buas itu. Kali ini, mereka bertarung mati-matian karena siapa pun di antara mereka yang kalah, dia harus meninggalkan wilayah tersebut. Tanpa menunggu waktu lagi, si Baya langsung menerjang si Sura yang berada di dalam air. Sementara itu, si Sura yang sudah bersiap-siap dengan cepat berkelit menghindari serangan.
+            </p>
+            <p align="justify">
+                Si Sura dan si Baya masih saling menerkam dan menggigit. Dalam suatu serangan, si Sura berhasil menggigit pangkal ekor si Baya. Air sungai yang semula jernih pun langsung berubah menjadi merah akibat darah yang keluar dari luka si Baya. Meskipun dalam keadaan terluka parah, si Baya terus berupaya melakukan perlawanan. Usahanya tidak sia-sia karena ia berhasil menggigit ekor si Sura hingga hampir terputus. Tak ayal, si Sura pun menjerit kesakitan seraya melarikan diri menuju lautan. 
+
+            </p>
+            <p align="justify">
+                Si Baya merasa puas karena mampu mempertahankan wilayah kekuasaannya. Untuk mengenang peristiwa tersebut, masyarakat setempat menamakan daerah tersebut “Surabaya”, yaitu diambil dari gabungan kata Sura dan Baya. Oleh pemerintah setempat, gambar ikan Sura dan Buaya dijadikan sebagai lambang kota Surabaya yang hingga kini masih dipakai.
+
+            </p>
+           
+        </div>
+    </div>
+    
+</body>
+</html>

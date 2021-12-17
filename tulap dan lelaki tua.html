@@ -1,0 +1,167 @@
+<!--
+    Kelompok: 12
+    Tanggal: 25 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="images/logo-buku.png">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <title>Tulap dan Lelaki Tua</title>                          
+    <style>
+        <style>
+ 
+p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+</style>
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_inggris1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+               Tulap dan Lelaki Tua
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="Indonesia/Tulap.ogg" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/tulap.png" alt="--buatgambardisini--">            <!--Jangan Lupa Ganti-->
+            <p align="justify">                                              <!--Jangan Lupa Ganti-->
+               Dahulu, di sebuah hutan belantara di Sulawesi Utara, terdapat sesosok raksasa yang ganas bernama Tulap. Sehari-hari, si Tulap berburu manusia dan binatang yang memasuki hutan tempat kediamannya untuk dijadikan santapannya. Seperti biasa, setiap pagi Tulap bersiap-siap berkeliling untuk hutan mencari mangsa. Ia berjalan menyusuri hutan belantara sambil memasang mata dan telinga. Setelah beberapa jauh berjalan, tiba-tiba ia mendengar suara gaduh tidak jauh di hadapannya.
+            </p>
+            <p align="justify"> 
+                “Suara apa itu?” gumam Tulap seraya memperlambat langkahnya.
+                Tulap kemudian bersembunyi di balik semak-semak. Dari balik semak-semak itulah ia mengintip ke arah suara gaduh itu berasal. Rupanya, ada seorang lelaki tua yang sedang mencari kayu bakar.
+                “Hmm... akhirnya aku mendapatkan mangsa. Walaupun sudah tua, orang itu tetap enak dijadikan santapan,” gumamnya.
+                Tulap tidak sabar lagi ingin segera menangkap lelaki tua itu. Ia pun keluar dari persembunyiannya.
+                “Hai, Pak Tua! Sedang apa kamu di sini?” tanya Tulap dengan suara menggelegar.
+                Mendengar suara itu, Pak Tua menjadi ketakutan. Semula, ia bermaksud melarikan diri. Namun ia menyadari bahwa walaupun lari raksasa itu pasti akan bisa menangkapnya.
+            </p>
+            <p align="justify"> 
+                “Sa... sa... saya sedang mencari kayu bakar, Tuan Raksasa,” jawab lelaki tua itu dengan gugup dan tubuh gemetaran.
+                “Ha.. ha... ha...,” Tulap tertawa terbahak-bahak.
+                Lelaki tua itu pun semakin ketakutan.
+                “Ampun, Tuan Raksasa. Tolong, jangan sakiti saya,” rengek Pak Tua.
+                Tulap kembali tertawa terbahak-bahak lalu berkata kepada lelaki tua itu.
+                “Baiklah, aku tidak akan memangsamu. Tapi, maukah kamu ikut bersamaku? Temani aku mencari burung untuk santapan siang kita nanti,” bujuk si Tulap.
+            </p>
+            <p align="justify"> 
+                Lelaki tua itu sebenarnya mengetahui bahwa bujukan si Tulap hanya akal-akalan saja. Ia tahu bahwa dirinya pasti akan dijadikan santapannya. Namun, karena takut raksasa itu murka dan langsung memangsanya, Pak Tua pun menuruti ajakannya.
+                Lelaki tua itu sebenarnya mengetahui bahwa bujukan si Tulap hanya akal-akalan saja. Ia tahu bahwa dirinya pasti akan dijadikan santapannya. Namun, karena takut raksasa itu murka dan langsung memangsanya, Pak Tua pun menuruti ajakannya.
+                Keduanya pun berjalan menyusuri hutan belantara. Lelaki tua itu disuruh berjalan di depan kemudian Tulap mengikutinya dari belakang. Pak Tua tampak semakin ketakutan. Ia sesekali ia menoleh ke belakang karena takut raksasa itu memangsanya dari belakang. Sesaat kemudian, Pak Tua tiba-tiba berhenti.
+            </p>
+            <p align="justify"> 
+                “Hai, Pak Tua. Kenapa kamu berhenti?” tanya Tulap heran.
+                “Maaf, Tuan. Di depan kita ada banyak jarum dan peniti,” jawab Pak Tua.
+                “Ambil dan bawa pulang semua benda itu!” seru si Tulap.
+                Pak Tua itu pun memungut semua jarum dan peniti yang menancap di tanah lalu memasukkan ke dalam saku celananya. Setelah itu, keduanya pun melanjutkan perjalanan dengan menyusuri hutan, mendaki bukit, menuruni lembah, serta menyeberangi beberapa sungai. Tak berapa lama kemudian, mereka menemukan sebatang pohon pisang yang berbuat lebat. Tulap segera memetik beberapa buah pisang yang sudah masak lalu menyuruh Pak Tua itu membawanya.
+            </p>
+            <p align="justify"> 
+                Mereka sudah cukup berjalan. Si Tulap yang sudah mulai kelelahan mengajak lelaki tua itu beristirahat sejenak di bawah pohon yang rindang. Saat beristirahat, pandangan si Tulap tiba-tiba tertuju pada sebuah tongkat yang biasa digunakan memukul sagu. Ketika mereka hendak meninggalkan tempat itu, si Tulap menyuruh Pak Tua untuk membawa tongkat itu. Baru beberapa langkah mereka berjalan, tiba-tiba seekor tikus jantan yang besar dan berekor putih melintas. Untung tikus itu lincah menghindar sehingga tidak terinjak oleh kaki si Tulap. Raksasa itu pun mengajaknya ikut bersama mereka.
+            </p>
+            <p align="justify"> 
+                “Hai, tikus! Ayo ikut bersama kami mencari makanan yang enak,” ajak si Tulap.
+                Tikus itu menuruti ajakan si Tulap karena takut dimangsa. Ketiganya pun melanjutkan perjalanan. Tak berapa lama kemudian, mereka bertemu dengan seekor lipan raksasa. Si Tulap pun mengajaknya ikut serta. Kini, si Tulap yang berjalan paling di depan kemudian disusul Pak Tua, si tikus, dan si lipan yang paling belakang sendiri. Setelah beberapa meter berjalan, tiba-tiba terdengar kicau seekor burung mutuo. Rombongan si Tulap pun serentak berhenti.
+                “Wah, ini pasti makanan enak,” kata si Tulap.
+                Ketika si Tulap hendak menangkapnya, burung itu ternyata sedang bertelur. Raksasa itu pun membujuknya agar ikut bersama mereka.
+                “Hai, burung mutuo. Ikutlah bersama kami. Nanti kamu bertelur di rumahku saja,” ujar si Tulap.
+            </p>
+            <p align="justify"> 
+                Akhirnya, burung mutuo itu bergabung bersama rombongan si Tulap. Sudah semakin jauh mereka berjalan. Raksasa itu terlihat mulai lemas karena kelaparan. Sejak pagi belum dia belum menyantap daging manusia. Oleh karena tidak ingin niat jahatnya ketahuan, si Tulap menyuruh Pak Tua, si tikus, si lipan, dan burung mutuo berjalan dulu menuju ke rumahnya.
+                “Kalian tunggulah di rumahku, nanti aku menyusul. Aku mau mencari makanan dulu untuk kalian,” ujar si Tulap.
+                “Baik, Tuan Raksasa,” jawab Pak Tua dan binatang-binatang tersebut serentak.
+            </p>
+            <p align="justify"> 
+                Sementara si Tulap mencari makanan, Pak Tua dan ketiga binatang itu berjalan menuju ke rumah raksasa yang jahat itu. Dalam perjalanan, tiba-tiba timbul perasaan curiga terhadap gelagat si Tulap.
+                “Hai, kawan-kawan. Aku yakin si Tulap akan menjadikan kita sebagai santapannya,” ungkap Pak Tua.
+                “Apa yang harus kita lakukan, Pak Tua?” tanya si tikus.
+                “Iya, Pak Tua. Bagaimana bisa menghadapinya?” imbuh si lipan.
+                “Tenang, kawan-kawan! Kita harus menggunakan siasat,” ujar Pak Tua.
+            </p>
+            <p align="justify"> 
+                Pak Tua dan para binatang itu pun bermusyawarah untuk mencari cara agar bisa membinasakan raksasa yang buas itu. Setelah mengatur siasat, mereka melanjutkan perjalanan. Setiba di rumah si Tulap, mereka segera menjalankan siasat yang telah direncanakan sebelumnya. Si tikus mendapat tugas menggigit teling si Tulap ketika sedang tidur. Si lipan bertugas menggigit tangan Tulap ketika sedang membasuh muka di penampungan air. Sementara itu, burung mutuo bertugas mengepak-epakkan sayapnya agar lampu mati dan debu masuk ke mata di si Tulap. Adapun Pak Tua bertugas meletakkan jarum dan peniti di depan tempat tidur si Tulap, serta beberapa kulit pisang di depan pintu keluar.
+            </p>
+            <p align="justify"> 
+                Saat hari mulai gelap, si Tulap pun pulang ke rumahnya. Karena kelelahan, ia langsung masuk ke kamar dan langsung terlelap dengan dengkuran yang sangat keras.
+                “Kawan-kawan, ayo kita mulai bertindak!” seru Pak Tua, “Raksasa itu sudah tidur.”
+                Mereka langsung bertindak untuk melaksanakan tugas masing-masing. Pertama-tama, si tikus menggigit telinga si Tulap. Raksasa itu pun serentak terbangun dan beranjak dari tempat tidurnya. Ketika ia meloncat ke depan tempat tidur, kakinya tertusuk jarum dan peniti yang telah dipasang oleh Pak Tua. Ia pun menjerit-jerit kesakitan menuju ke ruang dapur untuk membasuh mukanya. Pada saat itu pula, burung mutuo mengepakkan sayapnya tiga kali sehingga lampu penerangan di dalam rumah itu padam. Mata raksasa itu juga kemasukan debu.
+            </p>
+            <p align="justify"> 
+                Dalam keadaan suasana gelap gulita, si Tulap berjalan meraba-raba menuju ke tempat penampungan air yang ada di dapur. Saat ia mengambil air, si lipan yang sudah menunggu segera menggigit tangannya. Raksasa yang malang itu pun kembali menjerit kesakitan seraya berlari menuju pintu keluar. Saat melewati pintu keluar itu, kakinya tergelincir karena menginjak kulit pisang yang telah diletakkan di situ oleh Pak Tua. Tak ayal, raksasa itu jatuh terjengkang.
+            </p>
+            <p align="justify"> 
+                Melihat keadaan itu, Pak Tua pun tidak menyia-nyiakan kesempatan. Ia segera memukul kepala si Tulap dengan tongkat yang ia bawa dari hutan. Raksasa yang ganas itu pun akhirnya tewas.
+                Dengan tewasnya si Tulap, si lelaki tua dan kawan-kawannya menjadi lega karena terbebas dari ancaman bahaya. Mereka pun kembali ke tempat tinggal masing-masing. Sejak itulah, mereka kembali hidup tenang tanpa gangguan si Tulap.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

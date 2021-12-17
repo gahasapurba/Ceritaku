@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Denk One
+Author: Sorkin Type
+Url: https://fonts.google.com/specimen/Denk+One
+
+Font: Nunito
+Author: Vernon Adams,Cyreal
+Url: https://fonts.google.com/specimen/Nunito

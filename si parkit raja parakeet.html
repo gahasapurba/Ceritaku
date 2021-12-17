@@ -1,0 +1,162 @@
+<!--
+    Kelompok: 12
+    Tanggal: 25 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>Si Parkit Raja Parakeet</title>                           
+    <style>
+ p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_indonesia1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                Si Parkit Raja Parakeet
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="Indonesia/Raja-Burung-Parkit.ogg" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/siparkit.png" alt="--buatgambardisini--">
+
+            <p align="justify">
+                Konon, di tengah hutan belantara itu, hiduplah sekawanan burung parakeet yang hidup damai, tenteram, dan makmur. Setiap hari mereka bernyanyi riang dengan suara merdu bersahut-sahutan dan saling membantu mencari makanan. Kawanan burung tersebut dipimpin oleh seorang raja parakeet yang bernama si Parkit. Namun, di tengah suasana bahagia itu, kedamaian mereka terusik oleh kedatangan seorang Pemburu. 
+            </p>
+            <p align="justify">
+                Ternyata, ia berniat menangkap dan menjual burung parakeet tersebut. Pelan-pelan tapi pasti, si Pemburu itu melangkah ke arah kawanan burung parakeet itu, lalu memasang perekat di sekitar sarang-sarangnya. “Ehm. Aku akan kaya raya dengan menjual kalian!”, gumam si Pemburu setelah selesai memasang banyak perekat. Si Pemburu itu pun tersenyum terus membayangkan uang yang akan diperolehnya.
+            </p>
+            <p align="justify">
+                Gumaman si Pemburu tersebut didengar kawanan burung parakeet, sehingga mereka menjadi ketakutan. Mereka berkicau-kicau untuk mengingatkan antara satu sama lainnya. “Hati-hati! Pemburu itu telah memasang perekat di sekitar sarang kita! Jangan sampai tertipu! Sebaiknya kita tidak terbang ke mana-mana dulu!”, seru seekor burung parakeet. “Ya, betul! Kita memang harus berhati-hati,” sahut burung parakeet yang lain. 
+            </p>
+            <p align="justify">
+                Namun, karena harus mencari makan, burung-burung parakeet itu pun keluar dari sarangnya. Alhasil, apa yang ditakutkan burung-burung parakeet itu pun terjadi. Bencana tak terelakkan, burung-burung parakeet itu terekat pada perekat si Pemburu. Mereka meronta-ronta untuk melepaskan diri dari perekat tersebut, namun usaha mereka sia-sia. Kawanan burung parakeet tersebut menjadi panik dan bingung, kecuali si Parkit, raja parakeet.
+            </p>
+            <p align="justify">
+                Melihat rakyatnya kebingungan, Raja Parakeet berkata, “Tenang, Rakyatku! Ini adalah perekat yang dipasang si Pemburu. Berarti dia ingin menangkap kita hidup-hidup. Jadi, kalau kita mati, si Pemburu itu tidak akan mengambil kita. Besok, ketika si Pemburu itu datang, kita pura-pura mati saja!”, mendengar penjelasan raja Parakeet itu, rakyatnya terdiam. Sejenak, suasana menjadi hening. Di tengah keheningan itu, “Berpura-pura mati? Untuk apa?”, tanya seekor parakeet, membuat burung parakeet lainnya menoleh ke arahnya. 
+            </p>
+            <p align="justify">
+                Si Parkit tersenyum mendengar pertanyaan itu, “Besok, setelah si Pemburu melepaskan kita dari perekat yang dipasangnya, dia akan memeriksa kita satu per satu. Bila dilihatnya kita telah mati, maka dia akan meninggalkan kita di sini. Tunggu sampai hitunganku yang keseratus agar kita dapat terbang secara bersama-sama!”. Semua rakyatnya ternganga mendengar penjelasan si Parkit. “Oh, begitu..!? Baiklah, besok kita akan berpura-pura mati agar dapat bebas dari Pemburu itu!”, sahut rakyatnya setuju.
+            </p>
+            <p align="justify">
+                Kini, rakyatnya sudah mengerti apa yang direnca@nakan oleh si Parkit. Mereka berjanji akan menuruti perintah rajanya. Keesokan harinya, si Pemburu pun datang. Dengan sangat hati-hati, si Pemburu melepaskan burung parakeet tersebut satu persatu dari perekatnya. Ia sangat kecewa, karena tak satu pun burung parakeet yang bergerak. Dikiranya burung parakeet tersebut telah mati semua, ia pun membiarkannya.
+            </p>
+            <p align="justify">
+               Dengan rasa kesal, si Pemburu berjalan seenaknya, tiba-tiba ia jatuh terpeleset. Kawanan burung parakeet yang berpura-pura mati di sekitarnya pun kaget dan terbang dengan seketika tanpa menunggu hitungan dari si Parkit. Si Pemburu pun berdiri kaget, karena ia merasa telah ditipu oleh kawanan burung parakeet itu. Namun, tiba-tiba ia tersenyum, karena melihat ada seekor burung parakeet yang masih melekat pada perekatnya. Lalu ia menghampiri burung parakeet tersebut, yang tidak lain adalah si Parkit. “Kamu akan kubunuh!”, bentak si Pemburu dengan marah. Si Parkit sangat ketakutan mendengar bentakan si Pemburu
+            </p>
+            <p align="justify">
+                Si Parkit yang cerdik itu, tidak mau kehilangan akal. Ia segera berpikir untuk menyelematkan diri, karena ia tidak mau dibunuh oleh si Pemburu itu. “Ampuni hamba, Tuan! Jangan bunuh hamba! Lepaskan hamba, Tuan!” pinta si Parkit. “Enak saja! Kamu dan teman-temanmu telah menipuku. Kalau tidak, pasti aku sudah banyak menangkap kalian!” kata si Pemburu dengan marah. “lya. Tapi itu kan bukan salahku. Ampuni hamba, Tuan! Hamba akan menghibur Tuan setiap haril” kata si Parkit memohon. “Menghiburku?” tanya si Pemburu. “Betul, Tuan. Hamba akan bernyanyi setiap hari untuk Tuan!” seru si Parkit. 
+            </p>
+            <p align="justify">
+                Si Pemburu diam sejenak memikirkan tawaran burung parakeet itu. “Memangnya suaramu bagus?” tanya si Pemburu itu mulai tertarik. Si Parkit pun bernyanyi. Suara si Parkit yang merdu itu berhasil mumbujuk si Pemburu, sehingga ia tidak jadi dibunuh. “Baiklah, aku tidak akan membunuhmu, tapi kamu harus bernyanyi setiap hari!” kata si Pemburu. Karena takut dibunuh, si Parkit pun setuju.
+            </p>
+            <p align="justify">
+                Setelah itu, si Pemburu membawa si Parkit pulang. Sesampai di rumahnya, si Parkit tidak dikurung dalam sangkar, tapi salah satu kakinya diikat pada tiang yang cukup tinggi. Sejak saat itu, setiap hari si Parkit selalu bernyanyi untuk menghibur si Pemburu itu. Si Pemburu pun sangat senang mendengarkan suara si Parkit. “Untung aku tidak membunuh burung parakeet itu”, ucap si Pemburuh. 
+            </p>
+            <p align="justify">
+                Ia merasa beruntung, karena banyak orang yang memuji kemerduan suara si Parkit. Sampai pada suatu hari, kemerduan suara si Parkit tersebut terdengar oleh Raja Aceh di istananya. Raja Aceh itu ingin agar burung parakeet itu menjadi miliknya. Sang Raja memanggil si Pemburu menghadap kepadanya. Si Pemburu pun datang ke istana dengan perasaan bimbang, karena ia sangat sayang pada si Parkit.
+            </p>
+            <p align="justify">
+                Sampai di hadapan Raja Aceh, ia tidak bersedia memberikan si Parkit yang bersuara merdu itu kepada Sang Raja. “Ampun, Baginda! Hamba tidak bermaksud menentang keinginan Baginda!” kata si Pemburu memberi hormat. “Lalu, kenapa kamu tidak mau memberikan burung itu?” tanya sang Raja. “Ampun, Baginda! Mohon beribu ampun! Hamba sangat sayang pada burung tersebut. Selama ini hamba telah memeliharanya dengan baik”, jawab si Pemburu. Mendengar jawaban itu, “Kalau begitu, bagaimana jika kuganti dengan uang yang sangat banyak.?”, sang Raja menawarkan. 
+            </p>
+            <p align="justify">
+                Pemburu itu pun terdiam sejenak memikirkan tawaran itu. Tidak lama, “Ampun, Baginda! Jika Baginda benar-benar menyukai burung parakeet tersebut, silakan kirim pengawal untuk mengambilnya!” kata si Pemburu sambil memberi hormat. Sang Raja sangat senang mendengar jawaban si Pemburu. Ia pun segera memerintahkan beberapa pengawalnya untuk mengambil burung parakeet tersebut dan menyerahkan uang yang dijanjikannya kepada si Pemburu.
+            </p>
+            <p align="justify">
+                Si Parkit pun dibawa ke istana dan dimasukkan ke dalam sangkar emas. Setiap hari si Parkit disediakan makanan yang enak. Meksipun semuanya serba enak, namun si Parkit tetap tidak senang, karena ia merasa terpenjara. Ia ingin kembali ke hutan belantara tempat tinggalnya dulu, agar ia bisa terbang bebas bersama rakyatnya. Karena merasa sedih, si Parkit sudah beberapa hari tidak mau menyanyi untuk sang Raja. Mengetahui burung parakeetnya tidak mau menyanyi lagi, sang Raja mulai bimbang memikirkan burung parakeetnya. 
+            </p>
+            <p align="justify">
+                Karena ingin tahu keadaan burung itu yang sebenarnya, maka sang Raja pun memanggil petugas istana, “Kenapa burung parakeetku tidak mau bernyanyi lagi beberapa hari ini? Dia sakit, ya?”. Petugas Istana itu menjawab, “Maaf, Tuanku. Hamba juga tidak tahu apa sebabnya. Saya telah memberinya makan seperti biasanya, tetapi tetap saja ia tidak mau bernyanyi,”. Mendengar jawaban dari Petugas Istana tersebut, Raja Aceh menjadi sedih melihat burung parakeetnya yang tidak mau bernyanyi lagi. “Ada apa, ya?” gumam sang Raja.
+            </p>
+            <p align="justify">
+                Beberapa hari kemudian, si Parkit bahkan tidak mau memakan apa pun yang di@sediakan di dalam sangkar emasnya. Ia terus teringat pada hutan belantara tempat tinggalnya dulu. Si Parkit pun mulai berpikir, “Bagaimana caranya ya....aku bisa keluar dari sangkar ini?”, gumam si Parkit. Tak lama, ia pun menemukan akal, “Aahh....aku harus berpura-pura mati lagi”, si Parkit tersenyum sambil membayangkan dirinya lepas dan terbang tinggi. Akhirnya, pada suatu hari, ia pun berpura-pura mati.
+            </p>
+            <p align="justify">
+                Petugas Istana yang mengetahui si Parkit mati segera menghadap sang Raja. “Ampun, Tuanku. Hamba sudah merawat dan memelihara sebaik mungkin, tapi burung parakeet ini tidak tertolong lagi. Mungkin karena sudah tua” kata Petugas Istana melaporkan kematian si Parkit. Sang Raja sangat sedih mendengar berita kematian burung parakeetnya, sebab tidak akan ada lagi yang menghiburnya.
+            </p>
+            <p align="justify">
+                Meskipun sang Raja masih memiliki burung parakeet yang lain, tetapi suaranya tidak semerdu si Parkit. Karena si Parkit tidak bisa tertolong lagi, “Siapkan upacara penguburan! Kuburkan burung parakeetku itu dengan baik!” perintah sang Raja. “Siap, Tuanku! Hamba laksanakan!” sahut Petugas Istana.
+            </p>
+            <p align="justify">
+                Penguburan si Parkit akan dilaksanakan dengan upacara kebesaran kerajaan. Pada saat persiapan penguburan, si Parkit dikeluarkan dari sangkarnya karena dianggap sudah mati. Ketika ia melihat semua orang sibuk, dengan cepatnya ia terbang setinggi-tingginya. Di udara ia berteriak dengan riang gembira, “Aku bebaasss...!!! Aku bebaasss....!!!. 
+            </p>
+            <p align="justify">
+                Orang-orang hanya terheran-heran melihat si Parkit yang dikira sudah mati itu bisa terbang tinggi. Akhirnya si Parkit yang cerdik itu bebas terbang ke hutan belantara tempat tinggalnya dulu yang ia cintai. Kedatangan si Parkit pun disambut dengan meriah oleh rakyatnya.
+                Akhirnya, Si Parkit, Raja Parakeet, kembali tempat tinggalnya.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html> 

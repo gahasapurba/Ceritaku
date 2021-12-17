@@ -1,0 +1,153 @@
+<!--
+    Kelompok: 12
+    Tanggal: 26 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>Cleopatra</title>           
+    <style>
+ 
+
+p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+</style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_inggris1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                Cleopatra
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="English/cleopatra.mp3" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/cleopatra.png" alt="--buatgambardisini--">
+
+            <p align="justify">
+                Cleopatra – the last queen of Ancient Egypt – has fascinated writers and artists for the past 2000 years. The roman poets often wrote about her (not too kindly). Shakespeare turned her life into a tragic play – Antony and Cleopatra. Hollywood celebrated her loves and life in an epic and very costly film staring Elizabeth Taylor and Richard Burton.
+            </p>
+            <p align="justify">
+                She was the lover of two of the most powerful Romans of her time – Julius Caesar and then Mark Antony. But the Romans were also her enemies, and eventually brought Egypt into their empire. She was fabulously wealthy, witty, charming, intelligent, educated – and a woman with power and influence. Our story tells her life.
+            </p>
+            <p align="justify">
+                Hello, I am here with a story that is actually a piece of history. In fact, it’s a biography. A biography, as you probably know, is the story of a person’s life. The person in this case is one of the wealthiest and most glamorous women who ever lived. Her name was Cleopatra, and she was the last queen of Ancient Egypt. Her life was exciting and brilliant – but be warned, she met a tragic end.
+            </p>
+            <p align="justify">
+                In fact, Cleopatra wasn’t Egyptian, she was Greek. She was a member of the Ptolemy family who had ruled Egypt since the time of the Greek general, Alexander the Great. The second fact about Cleopatra rolled up in the carpet, is not so far from the truth. The ancient historians say that she was smuggled in to see Julius Caesar, but they talk about a sack, rather than a beautiful carpet. 
+            </p>
+            <p align="justify">
+                First let me tell you a bit about her family. 300 years before she was born, Alexander the Great from Macedonia in Northern Greece had conquered a large part of the known world. His empire stretched around the shores of the Mediterranean sea. Ptolemy was one of his generals, and he became ruler of Egypt. His family ruled Egypt right up to Roman times.
+            </p>
+            <p align="justify">
+                If you think that your own family is a little bit difficult sometimes, just be glad that you are not a Ptolemy. Although they were magnificently rich and powerful, being born into the family that ruled Egypt was a mixed blessing. They did not like to share their power with people outside the royal family. For that reason, brothers and sisters were often expected to marry each other. 
+            </p>
+            <p align="justify">
+                At least a ruler of Egypt would always be rich. The Egyptian pharaohs had perfected the art of collecting taxes. It was a wealthy country, and when the Ptolemys took over, they raked in the money. The crops grew amazingly well because Egypt had a wonderful combination: sunshine and water. Every summer, the River Nile flooded its banks and watered the fields. Its mines produced gold – which of course contributed immensely to its wealth – and also salt which was used to embalm the Egyptian mummies in their tombs.
+            </p>
+            <p align="justify">
+                Giant hawk-headed statues guarded the temples and palaces. Out to sea, a 400 foot tall beacon blazoned in the sky at night. The lighthouse of Alexandria was one of the highest buildings in its time – and one of the seven wonders of the ancient world. The most powerful city of the age was Rome, but the money and glamour were to be found in Alexandria.
+            </p>
+            <p align="justify">
+                Cleopatra was born in the year 69 BC and lived to 30 BC. Her father, Auletes, was king of the most important country in the Middle East. But on the other side of the Mediterranean sea, in Italy, the City of Rome was flexing its muscles. The Roman army was a highly scientific fighting machine. It was not invincible, but only the most warlike people could fend them off.
+            </p>
+            <p align="justify">
+                The Egyptians had many talents, but in a battle, they were no match for the Romans. Their main advantage was wealth. Roman leaders always needed money – and in return, the Senate declared that Egypt was a, “Friend and ally of the Roman People.” That meant that they wouldn’t invade it, at least for the time being.
+            </p>
+            <p align="justify">
+                Auletes died when Cleopatra was 18 years old, in 51 BC. She now ruled Egypt with her younger brother, Ptolemy. As was the custom in her family, Ptolemy was also her husband. It was a difficult time: the Nile failed to flood, causing famines. It was not long before Ptolemy and Cleopatra fell out. She had to flee from the country together with her sister, Arsinoe.
+            </p>
+            <p align="justify">
+                Julius Caesar, then in his 50s, was so besotted with the 21 year old queen that he was in no hurry to return back to Rome. It was not just her looks that attracted him. Plutarch – a historian from Roman times – says that it was, “a delight merely to hear the sound of her voice with which, like an instrument of many strings, she could flit from one language to another.”
+            </p>
+            <p align="justify">
+                It took six months to win the war against the forces of Ptolemy, and after that Caesar still did not want to go home. Cleopatra took him on a cruise up the Nile in her Royal barge. Eventually, Caesar could linger no longer in Egypt – he sailed for Rome. Soon after he left, Cleopatra gave birth to his son, whom she named Caesareon.
+            </p>
+            <p align="justify">
+                Octavian and Mark Antony split the empire between them. While Octavian ruled Rome and the West, Mark Antony came out to the Middle East. Cleopatra soon realised that her future depended on this new Roman. She had already made a big impression on one Roman general. She decided to make an even bigger one on the next. This time, subtlety played no part in her plans.
+            </p>
+            <p align="justify">
+                Mark Antony was camped with his army at Tarsus, in what is now Southern Turkey. It was then part of the Roman Empire, and later on it would be the birthplace of St. Paul. Cleopatra sailed up river to meet Antony. The wonderful description of her barge made its way from Plutarch’s history into Shakespeare’s play, Antony and Cleopatra.
+            </p>
+            <p align="justify">
+                Mark Antony had little choice but to commit suicide – It was the Roman way. He fell on his sword. Cleopatra was taken prisoner. She did not wish to be made to walk the streets of Rome as a captive, like her sister Arsinoe. She tried to stab herself, but Octavian’s soldiers prevented her. A few days later she smuggled herself into her tomb with three loyal servants. 
+            </p>
+            <p align="justify">
+                Legend holds that she called for a bowl of figs with a venomous snake inside it. Perhaps she took poison, which would have been a more gentle death. What we do know is that Cleopatra killed herself. The last queen of Egypt was 39 years old when she died, and had been on the throne of Egypt for 21 years. For 11 of those years, Mark Antony had been at her side. She had kept Egypt prosperous and independent throughout her reign.
+            </p>
+            <p align="justify">
+                It was probably inevitable that Rome would eventually conquer her country and bring it directly into its Empire. She had little choice but to befriend the greatest Romans of her day. She gambled, and in the end she lost. But the story of her life has fascinated people ever since.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

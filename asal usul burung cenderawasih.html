@@ -1,0 +1,156 @@
+<!--
+    Kelompok: 12
+    Tanggal: 25 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>Asal Usul Burung Cendrawasih</title>                          
+    <style>
+ 
+    p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_indonesia1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                Asal Usul Burung Cendrawasih
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="Indonesia/Asal Usul Burung Cendrawasih.mp3" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/cendrawasih.png" alt="--buatgambardisini--">            <!--Jangan Lupa Ganti-->
+            <p align="justify">                                             <!--Jangan Lupa Ganti-->              
+                Pada zaman dahulu hiduplah seorang perempuan tua bersama anjing betinanya di daerah Pegunungan Bumberi, Kabupaten Fakfak, Provinsi Papua Barat. Suatu hari, si perempuan tua dengan anjing kesayangannya sedang mencari makanan di hutan. Hari itu, mereka harus berjalan cukup jauh karena persediaan makanan di sekitar rumahnya sudah mulai berkurang. Setelah berjalan cukup jauh, mereka tiba di suatu tempat yang dipenuhi oleh pohon buah merah (sejenis pandan khas Papua) yang kebetulan telah berbuah. Perempuan tua itu segera memetik buah merah lalu diberikan kepada anjingnya yang kelaparan. Anjing betina itu langsung melahap buah merah hingga badannya terlihat segar kembali.
+                Namun, beberapa saat kemudian, tiba-tiba anjing itu merasakan sesuatu yang bergerak-gerak di dalam perutnya. Perut anjing betina itu semakin membesar seperti sedang bunting. Ajaib, hanya dalam waktu yang tidak lama, anjing betina itu melahirkan seekor anak anjing yang mungil. Melihat keajaiban itu, perempuan tersebut juga bermaksud memakan buah merah agar mendapatkan keturunan seperti yang dialami oleh anjingnya.
+            </p>
+            <p align="justify">
+                “Oh, ajaib sekali buah merah itu,” kagum perempuan itu. “Aku ingin mencoba buah itu agar aku bisa melahirkan anak.”
+                Perempuan itu segera memetik buah merah lalu memakannya. Begitu ia menelan buah tersebut, perutnya tiba-tiba mengalami hal yang serupa dengan anjingnya, perutnya semakin lama semakin membesar. Segera saja sang perempuan bergegas pulang ke pulang. Setiba di rumah, ia akhirnya melahirkan seorang anak laki-laki. Anak itu diberi nama Kweiya.
+                Sepuluh tahun kemudian, Kweiya telah tumbuh menjadi remaja. Kweiya sangat rajin membantu ibunya bekerja dengan membuka hutan untuk dijadikan kebun sayur. Namun karena hanya menggunakan kapak batu, ia hanya mampu menebang satu batang pohon setiap hari. Sementara itu, ibunya hanya bisa membantu membakar daun-daun dari pohon yang telah rebah. Akibatnya, asap tebal pun mengepul dan membumbung tinggi ke udara. Tanpa mereka sadari, ternyata asap tebal tersebut telah menarik perhatian seorang pria tua yang sedang mengail di sebuah sungai.“Hai, dari mana asal asap tebal itu? Siapa yang sedang membakar hutan?” gumam pria tua itu.
+            </p>
+            <p align="justify">
+                Oleh karena penasaran, pria tua itu segera mencari sumber asap tebal tersebut. Setelah menempuh perjalanan yang cukup melelahkan, sampailah ia di tempat asap itu berasal. Di tempat itu, ia mendapati seorang remaja tampan sedang menebang pohon di bawah terik matahari.
+                “Weing weinggiha pohi (selamat siang), anak muda,” sapa pria tua itu. “Siapa kamu dan mengapa menebang hutan di sini?”
+                “Nama saya Kweiya. Saya ingin membuat kebun untuk membantu ibu saya” jawab Kweiya
+                Pria tua itu mengerti bahwa Kweiya adalah anak yang berbakti kepada orang tua. Maka, ia pun memberikan kapak besinya kepada Kweiya.
+                “Kalau begitu, ambillah kapak besi ini. Kamu akan lebih cepat menebang pohon,” kata pria tua itu.
+                “Terima kasih Pak,” jawab Kweiya.
+            </p>
+            <p align="justify">
+                Kweiya pun dapat menyelesaikan pekerjaannya dengan cepat. Dalam waktu singkat, ia mampu merobohkan beberapa pohon yang besar. Setelah itu, ia bergegas pulang untuk menceritakan hasil pekerjaannya kepada ibunya. Ibunya pun amat heran saat mendengar cerita itu.
+                “Bagaimana kamu bisa secepat itu menebang pohon-pohon, anakku? Alat apa yang kamu gunakan?” tanya ibunya heran.
+                Kweiya terdiam sejenak. Ia tampaknya ingin merahasiakan pria tua yang telah membantunya itu.
+                “Aku tidak tahu juga, Bu. Kebetulan tadi tangan saya terlalu ringan mengangkat kapak sehingga dapat menebang pohon dengan cepat,” jawab Kweiya.
+                Mendengar jawaban itu, ibu Kweiya percaya begitu saja. Sementara itu, Kweiya meminta agar ibunya menyiapkan makanan yang banyak. Rupanya, Kweiya bermaksud mengajak pria tua itu ikut makan bersama sekaligus memperkenalkannya kepada ibunya.
+                “Bu, besok tolong siapkan makanan yang banyak,” pinta Kweiya.
+            </p>
+            <p align="justify">
+                Keesokan harinya, ibu Kweiya memasak makanan yang cukup banyak. Sementara itu, Kweiya ingin membuat kejutan untuk ibunya. Ketika dalam perjalanan pulang ke pondoknya, ia membungkus pria tua itu dengan sejumlah pohon tebu lengkap dengan daunnya. Setiba di rumah, bungkusan tersebut diletakkan di depan pintu. Setelah itu, ia masuk ke dalam rumah dan seolah-olah merasa sangat haus. Ia pun meminta ibunya agar mengambilkan sebatang tebu untuk melepas rasa dahaganya.
+                “Bu, aku haus sekali. Tolong ambilkan sebatang tebu di depan pintu itu,” pinta Kweiya.
+                Ibu Kweiya pun menuruti permintaan anaknya. Saat sang ibu membuka bungkusan daun tebu, ia sangat terkejut karena mendapati seorang pria tua sedang berbaring di dalam bungkusan. 
+            </p>
+            <p align="justify">
+                Seketika, ia pun menjerit ketakutan seraya berlari masuk ke dalam pondok.
+                “Kweiya, siapa pria tua itu? Kenapa dia ada di dalam bungkusan itu?” tanya ibunya heran. Kweiya tersenyum seraya menenangkan hati ibunya.
+                “Maafkan aku, Bu,” ucap Kweiya. “Aku tidak bermaksud menakuti-nakuti Ibu. Sebenarnya, pria tua itulah yang telah menolongku menebang pohon di hutan. Aku mohon Ibu mau menerimanya sebagai teman hidup!”Ibu Kweiya terdiam. Setelah berpikir sejenak, akhirnya ia menerima permintaan anaknya. Sejak saat itu, pria tua tersebut tinggal bersama mereka. Kweiya dan ibunya pun tidak merasa kesepian lagi.
+            </p>
+            <p align="justify">
+                Selang beberapa tahun kemudian, ibu Kweiya melahirkan dua anak laki-laki dan seorang perempuan dari hasil perkawinannya dengan pria tua itu. Kweiya menganggap ketiga adiknya tersebut sebagai adik kandung. Mereka hidup rukun dan saling menyayangi. Namun, hubungan persaudaraan mereka akhirnya menjadi retak karena kedua adik laki-lakinya merasa iri terhadap Kweiya. Mereka iri karena Kweiya selalu mendapat perhatian khusus dari ibu mereka.
+                Suatu hari, ketika kedua orangtua mereka sedang ke kebun, kedua adiknya mengeroyok Kweiya hingga luka-luka. Meskipun merasa kesal, Kweiya tidak tega membalas perbuatan kedua adiknya. Ia lebih memilih bersembunyi di salah satu sudut pondoknya sambil memintal tali dari kulit binatang sebanyak mungkin. Pintalan benang tersebut nantinya akan dibuat sayap.
+            </p>
+            <p align="justify">
+                Sementara itu, orangtua Kweiya baru saja tiba dari kebun. Ketika mengetahui Kweiya sedang tidak ada di rumah, sang ibu kemudian bertanya kepada adik-adik Kweiya.
+                “Ke mana abang kalian pergi?” tanya sang ibu.
+                “Tidak tahu Bu,” jawab kedua adik laki-laki Kweiya serentak.
+                Kedua adik laki-laki Kweiya ini rupanya takut menceritakan peristiwa perkelahian mereka yang menyebabkan Kweiya pergi dari rumah. Namun, adik bungsu mereka yang menyaksikan peristiwa tersebut menceritakannya kepada ibu mereka. Betapa sedihnya sang ibu saat mendengar cerita putri bungsunya itu. Ia kemudian berteriak memanggil-manggil Kweiya agar cepat kembali ke rumah. Namun, bukan Kweiya yang datang, melainkan suara burung yang terdengar.
+                “Eek.. ek... ek... ek.” begitu suara burung itu.
+            </p>
+            <p align="justify">
+                Suara itu ternyata suara Kweiya yang telah menyisipkan pintalan benang pada ketiaknya lalu melompat ke atas bubungan rumah dan selanjutnya terbang ke atas salah satu dahan pohon di depan rumah mereka. Kweiya rupanya telah berubah menjadi seekor burung yang amat indah dan bulunya berwarna- warni. Melihat peristiwa ajaib itu, sang ibu pun menangis tersedu-sedu sambil meminta benang pintalan kepada Kweiya.
+                “Kweiya, anakku. Apakah masih ada benang pintalan untukku?” tanya sang Ibu.
+                “Bagian Ibu aku sisipkan di dalam payung tikar,” jawab Kweiya.
+                Sang ibu pun segera mengambil pintalan benang itu lalu menyisipkan pada ketiaknya. Setelah berubah menjadi burung, ia kemudian mengepak-kepakkan sayapnya lalu terbang menyusul Kweiya yang bertengger di dahan pohon. Konon, kedua burung yang kini dikenal sebagai burung cenderawasih tersebut terlihat bercakap-cakap dengan kicauan mereka.
+            </p>
+            <p align="justify">
+                “Wong... wong... wong... wong...! Ko... ko... kok... | Wo-wik!” demikian kicauan mereka yang tidak
+                diketahui maksudnya.
+                Sejak itulah, burung cenderawasih jantan dan betina sering muncul di Fakfak, Papua Barat, dengan warna berbeda. Oleh masyarakat Onin, burung cenderawasih jantan yang bulunya cenderung lebih panjang kemudian dalam bahasa Lha disebut Siangga, sedangkan burung cenderawasih betina disebut Hanggam Tombor.
+                Kedua adik laki-laki Kweiya yang menyaksikan peristiwa ajaib itu hanya bisa pasrah ditinggalkan oleh ibu dan kakak mereka. Mereka akhirnya saling menyalahkan sehingga mereka saling lempar abu tungku. Wajah mereka pun menjadi kelabu hitam, abu-abu, dan ada juga yang menjadi warna merah. Seketika itu pula, mereka pun berubah menjadi burung dan kemudian terbang ke hutan rimba untuk menyusul ibu dan kakak mereka. Itulah sebabnya, hutan rimba di Fakfak lebih banyak dipenuhi oleh beragam burung yang kurang menarik dibandingkan dengan burung cenderawasih.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

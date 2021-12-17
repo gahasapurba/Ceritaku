@@ -1,0 +1,140 @@
+<!--
+    Kelompok: 12
+    Tanggal: 25 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="images/logo-buku.png">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <title>Malin Kundang</title>                           
+    <style>
+        <style>
+ 
+p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+</style>
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_indonesia1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                Malin Kundang
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="Indonesia/Malin Kundang.mp3" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/malin kundang.png" alt="--buatgambardisini--">            <!--Jangan Lupa Ganti-->
+            <p align="justify">                                              <!--Jangan Lupa Ganti-->
+                Suatu waktu, hiduplah sebuah keluarga nelayan di pesisir pantai wilayah Sumatra. Keluarga tersebut terdiri dari ayah, ibu dan seorang anak laki-laki yang diberi nama Malin Kundang. Karena kondisi keuangan keluarga memprihatinkan, sang ayah memutuskan untuk mencari nafkah di negeri seberang dengan mengarungi lautan yang luas.
+                Maka tinggallah si Malin dan ibunya di gubug mereka. Seminggu, dua minggu, sebulan, dua bulan bahkan sudah 1 tahun lebih lamanya, ayah Malin tidak juga kembali ke kampung halamannya. Sehingga ibunya harus menggantikan posisi ayah Malin untuk mencari nafkah. 
+            </p>
+            <p align="justify"> 
+                Malin termasuk anak yang cerdas tetapi sedikit nakal. Ia sering mengejar ayam dan memukulnya dengan sapu. Suatu hari ketika Malin sedang mengejar ayam, ia tersandung batu dan lengan kanannya luka terkena batu. Luka tersebut menjadi berbekas dilengannya dan tidak bisa hilang.
+                Setelah beranjak dewasa, Malin Kundang merasa kasihan dengan ibunya yang banting tulang mencari nafkah untuk membesarkan dirinya. Ia berpikir untuk mencari nafkah di negeri seberang dengan harapan nantinya ketika kembali ke kampung halaman, ia sudah menjadi seorang yang kaya raya. Malin tertarik dengan ajakan seorang nakhoda kapal dagang yang dulunya miskin sekarang sudah menjadi seorang yang kaya raya.
+            </p>
+            <p align="justify"> 
+                Setelah beranjak dewasa, Malin Kundang merasa kasihan dengan ibunya yang banting tulang mencari nafkah untuk membesarkan dirinya. Ia berpikir untuk mencari nafkah di negeri seberang dengan harapan nantinya ketika kembali ke kampung halaman, ia sudah menjadi seorang yang kaya raya. Malin tertarik dengan ajakan seorang nakhoda kapal dagang yang dulunya miskin sekarang sudah menjadi seorang yang kaya raya.
+                Setelah mempersiapkan bekal dan perlengkapan secukupnya, Malin segera menuju ke dermaga dengan diantar oleh ibunya. “Anakku, jika engkau sudah berhasil dan menjadi orang yang berkecukupan, jangan kau lupa dengan ibumu dan kampung halamannu ini, nak”, ujar Ibu Malin Kundang sambil berlinang air mata.               
+            </p>
+            <p align="justify"> 
+                Kapal yang dinaiki Malin semakin lama semakin jauh dengan diiringi lambaian tangan Ibu Malin Kundang. Selama berada di kapal, Malin Kundang banyak belajar tentang ilmu pelayaran pada anak buah kapal yang sudah berpengalaman. 
+                Di tengah perjalanan, tiba-tiba kapal yang dinaiki Malin Kundang di serang oleh bajak laut. Semua barang dagangan para pedagang yang berada di kapal dirampas oleh bajak laut. Bahkan sebagian besar awak kapal dan orang yang berada di kapal tersebut dibunuh oleh para bajak laut. 
+            </p>
+           <p align="justify"> 
+            Malin Kundang sangat beruntung dirinya tidak dibunuh oleh para bajak laut, karena ketika peristiwa itu terjadi, Malin segera bersembunyi di sebuah ruang kecil yang tertutup oleh kayu.
+            Malin Kundang terkatung-katung ditengah laut, hingga akhirnya kapal yang ditumpanginya terdampar di sebuah pantai. Dengan sisa tenaga yang ada, Malin Kundang berjalan menuju ke desa yang terdekat dari pantai. Sesampainya di desa tersebut, Malin Kundang ditolong oleh masyarakat di desa tersebut setelah sebelumnya menceritakan kejadian yang menimpanya
+            Desa tempat Malin terdampar adalah desa yang sangat subur. Dengan keuletan dan kegigihannya dalam bekerja, Malin lama kelamaan berhasil menjadi seorang yang kaya raya. Ia memiliki banyak kapal dagang dengan anak buah yang jumlahnya lebih dari 100 orang. Setelah menjadi kaya raya, Malin Kundang mempersunting seorang gadis untuk menjadi istrinya.
+           </p>
+           <p align="justify"> 
+            Berita Malin Kundang yang telah menjadi kaya raya dan telah menikah sampai juga kepada ibu Malin Kundang. Ibu Malin Kundang merasa bersyukur dan sangat gembira anaknya telah berhasil. Sejak saat itu, ibu Malin Kundang setiap hari pergi ke dermaga, menantikan anaknya yang mungkin pulang ke kampung halamannya.
+            Setelah beberapa lama menikah, Malin dan istrinya melakukan pelayaran dengan kapal yang besar dan indah disertai anak buah kapal serta pengawalnya yang banyak. Ibu Malin Kundang yang setiap hari menunggui anaknya, melihat kapal yang sangat indah itu, masuk ke pelabuhan. Ia melihat ada dua orang yang sedang berdiri di atas geladak kapal. Ia yakin kalau yang sedang berdiri itu adalah anaknya Malin Kundang beserta istrinya
+            </p>
+           <p align="justify"> 
+                Malin Kundang pun turun dari kapal. Ia disambut oleh ibunya. Setelah cukup dekat, ibunya melihat bekas luka dilengan kanan orang tersebut, semakin yakinlah ibunya bahwa yang ia dekati adalah Malin Kundang. 
+                “Malin Kundang, anakku, mengapa kau pergi begitu lama tanpa mengirimkan kabar?”, katanya sambil memeluk Malin Kundang. >
+                Tapi apa yang terjadi kemudian? Malin Kundang segera melepaskan pelukan ibunya dan mendorongnya hingga terjatuh
+                “Wanita tak tahu diri, sembarangan saja mengaku sebagai ibuku”, kata Malin Kundang pada ibunya. 
+                Malin Kundang pura-pura tidak mengenali ibunya, karena malu dengan ibunya yang sudah tua dan mengenakan baju compang-camping. 
+            </p>
+            <p align="justify"> 
+                “Wanita itu ibumu?”, Tanya istri Malin Kundang. 
+                “Tidak, ia hanya seorang pengemis yang pura-pura mengaku sebagai ibuku agar mendapatkan harta ku”, sahut Malin kepada istrinya. 
+                Mendengar pernyataan dan diperlakukan semena-mena oleh anaknya, ibu Malin Kundang sangat marah. Ia tidak menduga anaknya menjadi anak durhaka. Karena kemarahannya yang memuncak, ibu Malin menengadahkan tangannya sambil berkata 
+            </p>
+            <p align="justify"> 
+                “Oh Tuhan, kalau benar ia anakku, aku sumpahi dia menjadi sebuah batu”. Tidak berapa lama kemudian angin bergemuruh kencang dan badai dahsyat datang menghancurkan kapal Malin Kundang. Setelah itu tubuh Malin Kundang perlahan menjadi kaku dan lama-kelamaan akhirnya berbentuk menjadi sebuah batu karang.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

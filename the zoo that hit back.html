@@ -1,0 +1,165 @@
+<!--
+    Kelompok: 12
+    Tanggal: 26 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>The Zoo That Bit Back</title>           
+    <style>
+        <style>
+ 
+
+p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+</style>
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_inggris1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                The Zoo That Bit Back
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="English/Zoo_Bit_Back.mp3" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/zoobitback.png" alt="--buatgambardisini--"> 
+
+            <p align="justify">
+                Life in the zoo was not as exciting as on the outside, but it had its attractions.   The daily menus catered for everyone’s tastes. Some liked berries, others liked bananas. Some hungered for steak, others for fresh termites. The food just turned up every day, and nobody had to hunt or gather. The animals didn’t even have to tidy up their own cages or make their beds with fresh straw. The keepers did all that for them.
+            </p>
+            <p align="justify">   
+            The keeper of the monkeys’ cage was called Mr Hartley. He was a sweet man, and if the truth be told, a bit of a softy. Anything the monkeys screeched for, he provided – almost always. The chief monkey, whose name was Bozo, wanted a television so that he could watch Animal Planet. At first Mr Hartley could not understand what he was squawking on about, but he saw that Bozo was pointing to the video screen that displayed important information for the visitors.  
+        </p>
+        <p align="justify">
+            He tried turning it off, but that agitated Bozo even more. Then he twigged what was in the monkeys’ mind, and he went out and bought the latest flat panel TV and put it in the window of his office where Bozo and his followers could watch it.
+            But such a life of luxury could not go on forever, and it didn’t.
+        </p>
+        <p align="justify">
+            After Theo’s famous escape and his chocolate-crazed escapade, the zoo was noticed in high places. The local newspaper ran a headline that read:
+            “Slack Security at the Zoo.”And a local politician ran for election under the slogan:
+            “Time to get tough on the animals.” Pressure mounted for change. 
+        </p>
+        <p align="justify">
+            The head zookeeper lost his job. The new zoo boss was a man of a very different ilk. His name was Mr Shingles, and he held old-fashioned views about how animals should be kept. He didn’t believe in trendy modern zoology. He thought that pandering to animals’ every demand just encouraged them to laze and loaf around. 
+        </p>
+        <p align="justify">
+            He knew that his views were out of step with modern thinking, and he felt bitter because he had risen slowly through the ranks of the zoo service. But now the town’s Mayor had recognised his talents. His day had come.
+            On his first morning at work, he toured the zoo. When he came to the monkeys, he could hardly believe his eyes.
+        </p>
+        <p align="justify">
+            Next Mr Shingles visited the part of the zoo called “The Kingdom of the Great Apes.” He was furious that the zoo’s prize gorilla was too shy to come out and greet him. “What’s the point of a hairy king who hides away?” he demanded to know. “Tell his majesty that the visitors have paid good money to see his ugly face, and in future he had better show it.”
+        </p>
+        <p align="justify">
+            And as he continued on his tour, he had plenty more to note about the animals –  and none of it was good. The lion was asleep, the koalas were hanging around in one big daze, the stick insects were all but invisible, the bears were hiding in their lairs, the penguins were pushing and shoving at feeding time, the hippos were letting off great gusts of wind, and the baboons were showing their bottoms to the visitors.
+        </p>
+        <p align="justify">
+            He gathered the keepers round and delivered this message: 
+            “There are far too many scroungers, layabouts, and freeloaders in this zoo. I want every primate – and yes that includes the keepers – I want every quadruped, every bird, fish, reptile and every last tiny insect to understand this: From now on, if they want to eat, they must provide value for money!”
+        </p>
+        <p align="justify">
+            And so poor Mr Hartley spent his days trying to teach the monkeys to count to three and to read the newspaper. None of them showed an inclination to learn their lessons, except for one, and that was Theo. “Well well, well,” said Mr Hartley.  “So it turns out that the naughtiest monkey of them all is the brainiest.”
+        </p>
+        <p align="justify">
+            Life changed dramatically for all the other animals too. The keepers kept the lion awake by mixing coffee into his cat food, they cut back the Koalas’ eucalyptus leaves, they sealed up the bears’ lairs, they painted the stick insects bright blue, and they did not feed the penguins until they stood in an orderly line. The hippos were put on diets. As for the baboons, they weren’t allowed out of their rooms until they learned to show some respect to the visitors.
+        </p>
+        <p align="justify">
+            At night all the animals complained. They were kept apart by their cages, but those that could roar, roared, and those that could squawk, squawked. The wild birds twittered to their friends in the aviary, and all the talk was of a strike at the zoo. A local reporter got wind of this, and went to ask Mr Shingles what he would do if the animals went on strike.
+        </p>
+        <p align="justify">
+            One day, kind Mr Hartley was sweeping up the peach stones and banana skins off the floor of the cage. Theo noticed that he had left his key in the door. He swung by and grabbed it, before whisking it off to hide on a high branch of his favourite tree. As Mr Hartley left the cage, he noticed that he had lost his key – but he didn’t dare tell anyone about it, because he was afraid of losing his job.   Instead, he took the spare set of keys from his desk. 
+        </p>
+        <p align="justify">
+            But Theo did. And that night he opened the door and loped over to the head keeper’s office. Mr Shingles’ light was still on. He was working late, writing to all the keepers to tell them how much their wages would be cut. But he had left a window open at the back, and Theo crept inside and hid inside a cupboard until Mr Shingles left for the night.  
+        </p>
+        <p align="justify">
+            The keys to all the cages were hanging on the walls. Each one had a label on its ring. Theo spelt out “LI-ON” and “B-EAR” and “Hipp-o.” He was thankful to Mr Hartley for teaching him to read. Then he scampered around the cages opening all the doors. First he let out the monkeys and the apes. He told them to make as much noise as possible to wake everyone else up. The King gorilla made a quiet but dignified speech, appealing to the larger animals not to eat anyone, and to be careful not to tread on any of the insects.
+        </p>
+        <p align="justify">
+            When he arrived, Mr Shingles brushed by the cameras and reporters, and went into the zoo. He knew that it was very dangerous to be walking amongst the animals, but he almost did not care if he lost his life. His whole reputation was in ruins.
+        </p>
+        <p align="justify">
+            “Sir, how on earth did you persuade wild creatures to do that?” asked one of the reporters.
+            “Long experience of zoo work, and a touch of that animal magic,” he said. 
+            And so Mr Shingles kept his job as the head zookeeper – but only just. He had learnt to respect Theo the monkey – and he swore to get his revenge.  1
+            And that was the story of the Zoo that Bit Back.
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+

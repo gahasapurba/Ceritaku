@@ -1,0 +1,232 @@
+<!--
+    Kelompok: 12
+    Tanggal: __ November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>Anak Gadis Nining Kubaea</title>                           <!--Jangan Lupa Ganti-->
+    <style>
+        <style>
+ 
+ p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+</style>
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_indonesia1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+               Keong Mas
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="Indonesia/Keong-Emas.ogg" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/keong.png" alt="--buatgambardisini--">            <!--Jangan Lupa Ganti-->
+            <p align="justify">                                             <!--Jangan Lupa Ganti-->
+                Kisah ini bermula dari kerajaan Panjalu yang beribukota Daha atau Kediri. Raja Kediri mempunyai dua orang puteri. Yang pertama adalah Dewi Chandrakirana, yang kedua adalah Dewi Ajeng. Namun sayang sejak kecil ibu Chandrakirana ini meninggal dunia karena sakit. Raja kemudian kawin lagi. Dengan permaisuri barunya itu ia mempunyai puteri bernama Dewi Ajeng. Chandrakirana adalah gadis yang cantik. Baik budi pekertinya. Perasaannya halus, dan hatinya lembut. la disukai semua orang. Sementara itu Dewi Ajeng putri permaisuri yang baru. Wajahnya juga cantik tapi masih lebih cantik dan lembut wajah Chandrakirana. Ada bayangan watak kejam dan kaku pada diri Dewi Ajeng.
+            </p>
+            <p align="justify">
+                Raja Panjalu sudah merencanakan akan menjodohkan Chandrakirana dengan Raden lnu Kertapati dari kerajaan Jenggala.
+                Sebulan yang lalu Raden lnu Kertapati telah berkunjung ke Daha. Ia sudah melihat dan berkenalan dengan Chandrakirana. Keduanya merasa cocok, yang satu tampan dan satunya lagi benNajah cantikjelita.
+                Raja Daha sudah merencanakan bahwa empat puluh hari sejak perkenalan itu akan dilakukan pertunangan resmi; Raden Inu Kertapati bersama keluarga istana Jenggala akan datang melamar Chandrakirana. Waktu pertunangan itu hanya tinggal beberapa hari saja. Chandrakirana sudah mempersiapkan diri dengan sebaik-baiknya. “Tidak bisa! Aku tidak akan membiarkan Chandrakirana berdampingan dengan Raden Inu Kertapati,“ gumam Dewi Ajeng yang iri dan pencemburu.
+            </p>
+            <p align="justify">
+                Malam harinya Dewi Ajeng berunding dengan ibunya. Sang ibu menyarankan agar pergi ke nenek Gagak Ireng. Dukun wanita yang terkenal ampuh ilmu sihirnya. Demi clta-citanya bersanding dengan Raden Inu Kertapati ia rela pergijauh ke tempat nenek Gagak lreng.
+                Setelah mendapat bekal dari si dukunDewi Ajeng segera kembali ke istana. Tengah malam barulah ia sampai di istana dengan tubuh lesu karena perjalananjauh.
+                “Kita harus dapat mengusir Chandrakirana dari istana ini. Bagaimana caranya Bu?”
+                Permaisuri diam sejenak, kemudian tersenyum cerah. Ia ingin ingat tugas Chandrakirana yang tiap hari menghidangkan secangkirteh kepada ayahandanya. Itulah yang akan dimanfaatkan Permaisuri.
+            </p>
+            <p align="justify">
+                Esok hari rencana dijalankan. Sebelum Chandrakirana melakukan tugasnya. Diam-diam Permaisuri masuk ke ruang dapur. Menaruh racun di dalam gelas teh yang telah disiapkan pelayan istana untuk dibawa Chandrakirana menghadap ayahandanya. Hati sang permaisuri berdegup kencang. Karena ketika hendak keluar dari pintu dapur ia berpapasan dengan Chandrakirana.
+                “Oh, ibunda….mengapa harus repot-repot ke dapur?” tegur Chandrakirana.
+                “Tidak…tidak ada apa-apa. Aku hanya datang untuk melihat-Iihat pekerjaan para pelayan saja.”
+                “Terima kasih Ibunda telah ikut memperhatikan persiapan para pelayan menyambut kedatangan Raden Inu Kertapati.” kata Chandrakirana dengan polos. Gadis ini menyangka sang permaisuri bersimpati kepadanya.
+            </p>
+            <p align="justify">
+                Seperti biasa, Chandrakirana mengantarkan secangkir teh untuk ayahandanya. Kegiatan itu dilakukan untuk mendekatkan hubungan antara ayah dan anak. Biasanya, sambil minum teh mereka berbincangbincang seputar keluarga.
+                Sang Prabu meminum separo isi cangkir teh. Terasa hangat di dalam tenggorokan dan perutnya.
+                “Hem, teh bikinanmu memang enak anakku,”ujar sang Prabu.
+                “Terima kasih Rama Prabu.” sahut Chandrakirana.
+                Tapi sesaat kemudian sang Prabu memegangi perutnya yang terasa mual. Rasa mual itu semakin menghebat.
+                “Rama Prabu….!”teriak Chandra kirana.”Kenapa Rama Prabu ….. ? Ada apa kiranya?”
+            </p>
+            <p align="justify">
+                Tapi sang Prabu bukannya menjawab, sepasang matanya nampak mendelik, nafasnya tersenggaI-senggal. Kemudian malah muntah darah. Chandrakirana kiranya segera memeluk ayahnya yang hendak roboh.
+                Permaisuri menuding ke arah Chandrakirana.”Apa yang telah kau lakukan? Teganya kau hendak membunuh ayah sendiri. Kau pasti telah meracuninya.”
+                “Tidak! Tidak mungkin saya meracuni Rama Prabu yang sangat saya sayang”
+                Sang Prabu segera diangkat ke pembaringan. Tabib istana segera datang memeriksa. Wajah pakar kesehatan istana Kediri ini nampak tegang. Ia memeriksa tubuh sang Prabu dengan seksama. Beberapa saat kemudian sang Tabib bernafas lega. Walau sang Prabu belum sadarkan diri.
+                “Beliau terkena racun …… ”ujar sang Tabib.”Tapi rac’unnya tidak terlalu ganas. Walau demikian beliau harus istirahattotal selama beberapa hari.”
+            </p>
+            <p align="justify">
+                Esok harinya raja siuman. Ia betuI-betul tak menyangka puteri kandungnya sendiri bermaksud membuatnya celaka.
+                “Chandrakirana, apa sesungguhnya yang kau inginkan?”
+                “Ananda hanya menginginkan kesehatan dan kebahagiaan Rama Prabu.”jawab.
+                “Tapi buktinya kau telah mencoba membunuhku!”
+                “Bukan hamba pelakunya.”
+                “Hukum harus ditegakkan di kerajaan ini. Tak terkecuali terhadap anakku sendiri. Bukti dan saksi telah memberatkan tuduhan perbuatan jahatmu. Kau seharusnya dijatuhi hukuman mati. Tapi aku cukup bijak, kau harus pergi dari istana ini.”
+            </p>
+            <p align="justify">
+                “Rama Prabu harus menyelidiki masalah ini lebih dalam lagi. Ananda tidak bersalah.”
+                “Kau harus peri dari istana ini!”
+                Dengan berlinang air mata Chandrakirana terpaksa meninggalkan istana Kediri. Sekarang dia sendirian dan tidak memiliki siapa pun. la melangkah tanpa tujuan. Dengan derai mata la terus berjalan hingga sampai di tepi pantai.
+                Tanpa setahu Chandrakirana sejak tadi dari kejauhan Dewi Ajeng dan Nenek Gagak Ireng mengikutinya diam-diam.
+                “Nenek Gagak Ireng itu dia Chandrakirana!” bisik Dewi Ajeng.
+                “Ya, aku sudah tahu. Kau tunggu di sini! Biar aku sendiri yang maju menanganinya!” kata Nenek Gagak Ireng.
+            </p>
+            <p align="justify">
+                Nenek tua itu bergegas menghampiri Chandrakirana. Setelah cukup dekat. Nenek itu membaca mantranya. Tongkat hitam di tangannya diacungkan ke udara beberapa kali. Ia menarik napas panjang hingga perutnya membesar.
+                Dewi Ajeng yang berada di samping Nenek Gagak Ireng bergidik-merinding ketakutan. Saat itu Chandrakirana berada di dekat sebuah batu karang, Nenek Sihir menghembuskan udara dan perutnya dengan sekuattenaga.
+                “Wusss!”
+                “Blessss!”
+                Angin kuat penuh hawa sihir menerjang ke arah Chandrakirana. Tubuh Chandrakirana terpelanting ke tepi laut. Begitu menyentuh air laut tubuh Chandrakirana tiba-tiba berubah menjadi keong berwarna emas.
+            </p>
+            <p align="justify">
+                Dewi Ajeng menangkap keong itu . Lalu dengan sekuat tenaga Keong itu dilempar ke tengah laut.
+                “Terima kasih, Nenek!” kata Dewi Ajeng sembari mengeluarkan kantung uangnya. “Ini uang untuk Nenek karena telah berhasrl membantu aku.”
+                Chandrakirana terombang-ambing di tengah laut terbawa ombak. Gadis yang malang itu tidak bisa melakukan apa pun. kecuali berdo’a agar Dewata yang Yang Mahaagung menolong dan membawanya kembali ke darat.
+                Chandrakirana adalah seorang gadis yang lembut dan baik hati. Do’anya dikalbulkan. Ombak perlahan-Iahan membawanya ke dekat pantai yang tenang.
+                Kebetulan di tepian pantai itu ada seorang nenek tua yang mencari ikan. Nenek ini sudah bermaksud pulang. Namun ia masih menebarjala kecilnya. Kini ia dapat satu ekor ikan lagi yang agak besar. |a merasa sangat bersyukur. Ia celupkan jaring itu ke dalam air. Kini ia mengayuh sampannya untuk pulang.
+            </p>
+            <p align="justify">
+                Chandrakirana yang kini menjadi keong terbawa ombak hingga ke tepian. la merambat di sebuah batu hitam. Kebetulan nenek tua itU menambatkan sampannya tak jauh dari keong itu berada.
+                “Hem, kelihatannya keong ini lucu dan manis. Baiklah, kubawa pulang saja ke rumah. Kau akan kupelihara.” ujarsi nenek tua.
+                Lantas, keong emas diambilnya dan diletakkannya bersama ikan-ikan | hasil tangkapannya di dalam keranjang ikan. Keong emas kini merasa lega karena tidak lagi terombang-ambing di laut. Ia ingin mengungkapkan rasa terima kasih pada nenek itu, tapi sayang ia tidak bisa berbicara.
+                Tidak lama kemudian, nenek tua itu membawanya ke sebuah gubug kecil. Ikan hasil tangkapan hari itu, dia letakkan di atas tempayan, termasuk keong emas.
+                Keong emas diletakkan di dekat kendi air, di dalam rumahnya. Ia kemudian mencari kayu bakar untuk memasak. Tak lama kemudian ia kembali lagi untuk mengolah ikan hasil tangkapannya.
+            </p>
+            <p align="justify">
+                Malam hari nenek itu sudah kelelahan. la tidur dengan Ielap. Pada malam hari itulah tanpa sepengetahuannya. Keong emas berubah menjadi seorang gadis cantik-yang tak lain adalah Candrakirana.
+                Ternyata pengaruh sihir itu lenyap jika malam telah tiba. Esok harinya ketika bangun pagi sang nenek merasa terkejut. Sungguh, amat mengagetkan. Di atas meja makan, di dalam rumahnya telah terhidang berbagai macam makanan lezat.
+                Setelah sarapan pagi sang nenek pergi ke pantai mencari ikan. Siang itu nasib si nenek agak kurang baik. Ia sudah berusaha sekuat tenaganya menjaring ikan. Namun hingga menjelang sore yang didapat hanya seekor ikan.
+            </p>
+            <p align="justify">
+                Dengan langkah gontai ia pulang ke rumah. Kalau hanya seekor dia tidak dapat menukarnya dengan beras atau bahan makanan lainnya di pasar desa. Karena kelelahan dan kecewa ia pun segera beristirahat. Tak berapa lama kemudian ia tertidur lelap hingga pagi hari. Pagi itu ia dikejutkan lagi dengan adanya hidangan masakan lezat di atas meja.
+                Keong emas baru menyadari ternyata kutukan nenek sihir itu hilang di malam hari. Karena itu, selama beberapa jam, dia bisa kembali ke wujud manusianya. Dia memanfaatkan keadaan itu untuk mengungkapkan rasa terima kasihnya kepada nenek nelayan dengan memasakkan makanan untuknya.
+                Kejadian di meja makan ternyata tidak terjadi sekali, tetapi berkaIi-kali. Hal itu membuat nenek nelayan penasaran. Saking penasarannya, suatu hari, sehabis mencari ikan nenek nelayan pura-pura tidur.
+            </p>
+            <p align="justify">
+                Malam pun tiba. Perlahan-Iahan nenek memincingkan matanya. Ia mengintip apa yang terjadi di dalam rumahnya. Sungguh kaget dia dibuatnya. Dia melihat keong emas menjelma menjadi seorang putri yang cantikjelita. Buru-buru dia bangkit dari pembaringan.
+                “Kamu siapa?” tanya nenek nelayan.
+                Chandrakirana. kaget sekali tiba-tiba ditegur nenek nelayan, “Aku Chandrakirana putri Kerajaan Daha. Entah mengapa, aku tiba-tiba menjadi keong emas.”
+                “Lalu, kenapa kamu memasak makanan untukku?” tanya nenek nelayan.
+                “Aku ingin mengucapkan terima kasih karena nenek telah menyelamatkanku dari tepi laut,” ujar Chandrakirana.
+                “Oh, kau adalahjelmaan keong emas yang kutemukan di pantai?”
+                “Benar nenek, tolong biarkan aku tetap berada di rumah ini bersama nenek.”
+                “Tidak mengapa? Kau boleh tinggal di tempat ini. Aku akan menganggapmu sebagai anakku sendiri.”
+                “Terima kasih nenek yang baik.”
+            </p>
+            <p align="justify">
+                Demikianlah, jika siang hari Chandrakirana berubah menjadi keong emas. Jika malam tiba ia kembali menjadi seorang gadis cantik.
+                Jangan kuatir anakku,” kata si nenek.”Aku yakin kau adalah orang baik. Mari kita bersama-sama tiada hentinya memohon kepada Tuhan agar kau dipulihkan seperti sedia kala.”
+                “Terima kasih nenek.”
+                Sejak saat itu, Chandrakirana tinggal bersama nenek yang bernama Mbok Rondo Dadapan. Setiap malam tiba si nenek berdo’a kepada Tuhan agar Chandrakirana dipulihkan seperti sedia kala.
+                Sementara itu di tempat lain. Di sebuah desa yang jauh dari keramaian kota. Ada seorang pemuda berwajah tampan sedang berkelana.
+                “Oh Dinda Chandrakirana… .di manakah engkau gerangan berada?” Pemuda itu tak lain adalah Raden Inu Kertapati. Ia telah mengembara ke berbagai desa untuk mencari Chandrakirana yang telah hilang dari istana.
+            </p>
+            <p align="justify">
+                Suatu hari ia bertemu dengan seorang kakektua di pinggirjalan.
+                “Anak muda saya sudah tiga hari belum makan,” rintih kakektua itu. Reden Panji mendekat lalu memapah kakek itu untuk berteduh di bawah pohon jambu. Dia memetik beberapa buah jambu yang masak untuk si kakek.
+                “Terimakasih nak kamu baik sekali !” kata si kakek.
+                “Sebenarnya kamu mau kemana ?”
+                Raden lnu Kertapati menjawab “Saya mencari putri Chandrakirana yang diusir dari kerajaan Kediri.”
+                Kakek itu bergumam lalu menunjukkan padanya jalan menuju tempat Sang Putri Raden lnu Kertapati kemudian meneruskan perjalanannya mengikuti jalan yang telah ditunjukkan kakek tadi. Dia menanyai orang-orang di setiap desa yang ia lewati tentang Putri Chandrakirana.
+            </p>
+            <p align="justify">
+                akhirnya tiba di sebuah desa di pinggir pantai. Karena sudah beberapa hari tidak makan dan minum ia merasa sangat haus. Ia meminta minum kepada salah seorang penduduk. Penduduk tersebut kebetulan adalah Mbok Rondo Dadapan.
+                “Maaaf nek, bolehkah saya meminta seteguk air?” tanya Raden lnu Kertapati dengan sopan.
+                “Oh, boleh… .sebentar nenek ambilkan! ”jawab nenek itu.
+                Nenek itu masuk ke dalam rumah. Raden Inu Kertapati masih diluar rumah
+                Raden lnu Kertapati mencium bau makanan yang sedap sekali “Mungkin nenek sedang memasak. ” pikir Raden lnu Kertapati.
+                Ketika nenek kembali membawa kendi berisi air, Raden lnu Kertapati bertanya“ Nenek masakapa?”
+            </p>
+            <p align="justify">
+                “O…Bukan Nenek kok yang masak.”jawab nenek itu Nenek yang tak lain Mbok Rondo Dadapan pun menjelaskan panjang lebar mengenai Chandrakirana yang dikutuk menjadi Keong Emas dan ditemukannya di tepi laut “Jadi yang masak di dapur itu Chandrakirana?” Raden Inu Kertapati senang sekali Tolong Nek pertemukan kami berdua!”
+                Nenek Dadapan lalu memanggil Putri Chandrakirana.
+                “Pangeran lnu Kertapati !” Putri Chandrakirana berteriak kegirangan bertemu dengan kekasihnya yang sedang menyamar menjadi rakyat biasa itu. Hari itu juga, Pangeran Inu mengajak Putri Chandrakirana bersama nenek Dadapan pulang ke Istana.
+                Ketika Pangeran Inu dan Putri Candra Kiran telah tiba di kerajaan Kediri, Dewi Ajeng sangat kaget. Segera ia menemui nenek sihir. Nenek sihir mengatakan bahwa sihirnya akan hilang bila’ Chandrakirana telah bertemu Pangeran Inu.
+            </p>
+            <p align="justify">
+                Dewi Ajeng sangat marah , dia membentak”Kenapa kau tidak bilang dari dulu!”.
+                “Memangnya kau mau apa?” si nenek sihir balik menantang Dewi Ajeng. “Mau kusihirjadi cacing?”
+                “Tidak! Jangan nek!” rintih DewiAjeng.
+                “Kau harus tahu dan merasakan seperti apa jika dirimu berubah menjadi keong!”
+                “Jangan nek! Jangan!”
+                Namun terlambat, nenek gagak ireng yang sudah marah telah menyihirnya menjadi keong. Hanya saja warnanya bukan emas, keong berwarna hitam. Jadilah DewiAjeng keong berwarna hitam.
+                Selang sehari setelah peristiwa itu Raden Inu Kertapati dan Chandrakirana melangsungkan pertungan. Dan tak lama kemudian mereka melangsungkan pernikahan dan hidup berbahagia.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

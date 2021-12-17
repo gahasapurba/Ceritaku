@@ -1,0 +1,127 @@
+<!--
+    Kelompok: 12
+    Tanggal: 25 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>Sangkuriang</title>                           
+    <style>
+ p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_indonesia1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                Sangkuriang
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="Indonesia/Sangkuriang.ogg" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/sangkuriang.png" alt="--buatgambardisini--">
+
+            <p align="justify">
+                Prabu Galuga adalah serorang raja yang suka berburu. Biasanya ia ditemani seekor anjing istana jelmaan dewa. Pada suatu hari baginda berburu ke hutan dengan serombongan pengawal. Tapi hampir seharian ia tidak mendapat seekor binatang sekalipun, setiap kali membidikkan anak panahnya selalu meleset tak pernah mengenai sasaran. “Ada apa ini? Kenapa anak panahku tak pernah mengenai sasaran?” sang Prabu bertanya heran dalam hatinya.
+            </p>
+            <p align="justify">
+                Sang Prabu kesal sekali karena tak dapat hewan buruan. Suatu ketika ia pergi ke semak belukar di sana ia membuang air kecil yang ditahannya sejak tadi. Air seni Prabu Galuga tersisa dan menggenang di cekungan tempurung kelapa yang tergeletak di bawah rerimbunan. Di hutan itu ada seekor babi hutan jelmaan bidadari yang harus menjalani hukuman di dunia. Babi hutan itu bernama Celeng Wayungyang
+            </p>
+            <p align="justify">
+                Saat itu musim kemarau yang panas. Setelah baginda dan rombongannya meninggalkan tempat itu, datanglah Celeng Wayungyang. yang merasa kehausan. la menjilati air seni baginda yang ada di cekungan tempurung kelapa. Atas kehendak dewata, babi betina itu hamil. Sembilan bulan kemudian babi itu melahirkan seorang manusia perempuan. Pada saat itu, prabu galuga kebetulan tengah berburu pula di tempat yang sama seperti sembilan bulan yang lalu.
+            </p>
+            <p align="justify">
+                Prabu galuga merasa heran mendengartangisan bayi di tengah hutan. Makin lama suara tangisan bayi itu makin keras. Prabu Galuga seperti ditarik kekuatan gaib, sepasang kakinya melangkah ke  
+            </p>
+            <p align="justify">
+                arah sang bayi.
+                Tentu saja Celeng Wayung yang ketakutan dan segera melarikan diri.
+                “Hah? Seorang bayi?” pekik sang Prabu saat mengetahui ada sosok bayi tergeletak di rerumputan. Prabu Galuga segera menggendong bayi itu. Bayi itu kemudian dibawa ke istana, diambil anak dan diberi nama Nyi Dayang Sumbi.
+            </p>
+            <p align="justify">
+                Tujuh belas tahun kemudian gadis kecil itu telah tumbuh menjadi seorang dara cantikjelita. Kecantikan Nyi Dayang Sumbi terkenal sampai ke negara tetangga, hampir setiap pekan datang lamaran. Namun Nyi Dayang Sumbi selalu menolaknya. Sang prabu menjadi marah sekali. “Sumbi hanya ada dua pilihan bagimu. Mau menikah atau kuasingkan kau di tepi hutan.” Karena gadis itu tetap tak mau menikah maka ia diasingkan di tepi hutan ia dibuatkan dangau di tepi hutan. Temanya sehari-hari hanya seekor anjing bernama si Tumang -anjing jelmaan Dewa. Pekerjaannya sehari-hari adalah menenun kain.
+            </p>
+            <p align="justify">
+               Pada suatu hari ketika sedang menenun salah satu tongkatnyajatuh ke bawah dangau. ia merasa malas untuk turun ke bawah maka ia mengucapkan kata-kata “Siapa yang mau mengambilkan tongkatku ia akan kujadikan suamiku…” Tak disangka si umang naik ke atas sambil membawa tongkat itu. Kiranya anjing ini mendengar perkataan Nyi Dayang Sumbi. Bukan main terkejutnya Nyi Dayang Sumbi melihat siapa Yang naik pondok membawa tongkat
+            </p>
+            <p align="justify">
+               Dayang sumbi hendak menolak kenyataan yang ada namun tiba-tiba terdengar suara tanpa rupa,”Nyi Dayang Sumbi! Kau adalah keturunan bidadari, bidarari pantang menjilat ludah …… sendiri, lagi pula si Tumang memang jodohmu. Sesungguhnya anjing itu adalah jelmaan dewa!”
+               Terpaksa Dayang Sumbi harus bersuamikan seekor anjing walaupun anjing itu jelmaan dewa.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
+ 
+

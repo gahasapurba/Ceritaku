@@ -1,0 +1,97 @@
+/*
+    Kelompok: 12
+    Tanggal: __ November 2021
+    PSW-1
+    Institut Teknologi Del
+*/
+
+body{
+    /* position: relative; */
+    background: #FFFFFF;
+}
+
+
+.logo{
+    height: 100px;
+    width: 100px;
+    left: -54.838134765625px;
+    top: -26px;
+    border-radius: 0px;
+}
+
+.namaWeb{
+    
+    /* height: 45px;
+    left: 110px; */
+    top: 30px;
+    font-family: 'Lexend Exa';
+
+    font-style: normal;
+    font-size: 30px;
+    /* identical to box height */
+    /* color: #000000;
+    mix-blend-mode: normal; */
+}
+a{
+    display: flex;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px;
+    color: #000000;
+    text-decoration: none;
+} 
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.images{
+    
+    width: 320px;
+    height: 390px;
+    left: 110px;
+    top: 359px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.judul{
+    
+    height: 160px;
+    left: 0px;
+    background-color: #ED4A4A;
+}
+
+h1{
+    position: absolute;
+    left: 110px;
+    /* top: 150px; */
+    font-family: Hind Vadodara;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    /* line-height: 108px; */
+    color: #FFFFFF;
+    
+    width: 100%;
+}
+
+p{
+    height: 347px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: justify;
+    color: #000000;
+}
+
+.content{
+    position: absolute;
+    margin:100px;
+}

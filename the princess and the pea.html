@@ -1,0 +1,130 @@
+<!--
+    Kelompok: 12
+    Tanggal: 26 November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>The Princess and The Pea</title>           
+    <style>
+        <style>
+ 
+
+p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+</style>
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_inggris1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                The Princess and The Pea
+            </p> 
+             <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="English/princesspea.mp3" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/pea.png" alt="--buatgambardisini--">  
+
+                <p align="justify">
+                    There was, once upon a time, a prince who wanted to marry a princess, but she must be a true princess. So he travelled through the whole world to find one, but there was always something against each. There were plenty of princesses, but he could not find out if they were true princesses.
+                </p>
+                <p align="justify">
+                    In every case there was some little defect, which showed the genuine article was not yet found. So he came home again in very low spirits, for he had wanted very much to have a true princess. One night there was a dreadful storm; it thundered and lightened, and the rain streamed down in torrents.
+                </p>
+                <p align="justify">
+                    It was fearful! There was a knocking heard at the palace gate, and the old king went to open it.
+                    There stood a princess outside the gate; but oh! What a sad plight she was in from the rain and the storm! The water was running down from her hair and her dress into the points of her shoes and out at the heels again. Yet she said she was a true princess
+                </p>
+                <p align="justify">
+                    "Well, we shall soon find that out!" Thought the old queen. But she said nothing, and went into the sleeping room, took off all the bedclothes, and laid a pea on the bottom of the bed. Then she put twenty mattresses on top of the pea, and twenty eiderdown quilts on the top of the mattresses. This was the bed in which the princess was to sleep.
+                </p>
+                <p align="justify">
+                    The next morning she was asked how she had slept.
+                    "Oh, very badly!" Said the princess. "I scarcely closed my eyes all night! I am sure I don’t know what was in the bed. I laid on something so hard that my whole body is black and blue. It was dreadful!"
+                </p>
+                <p align="justify">
+                    Now they perceived that she was a true princess, because she had felt the pea through the twenty mattresses and the twenty eiderdown quilts. No one but a true princess could be so sensitive.
+                </p>
+                <p align="justify">
+                    So the prince married her, for now he knew that at last he had gotten hold of a true princess. The pea was put into the Royal Museum, where it is still to be seen, if no one has stolen it. Now this is a true story.
+                </p>
+                <p align="justify">
+                   So Bertie says that’s how you tell a real princess. Sadie says she would never sit on a pea, but still Bertie won’t say that she’s a real princess and now she’s in a bit of a huff. I’m sure she will cheer up soon because she likes Bertie really.
+                </p>
+        </div>
+    </div>
+    
+</body>
+</html>
+ 
+

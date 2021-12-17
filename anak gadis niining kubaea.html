@@ -1,0 +1,175 @@
+<!--
+    Kelompok: 12
+    Tanggal: __ November 2021
+    PSW-1
+    Institut Teknologi Del
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Exa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssPK_12.css">
+    <link rel="icon" href="images/logo-buku.png">
+    <title>Anak Gadis Nining Kubaea</title>                           <!--Jangan Lupa Ganti-->
+    <style>
+        <style>
+ p{
+    font-family:Hind Vadodara;
+}
+
+
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav.sound{
+    float: right;
+    margin-right: 2%;
+    margin-top: -110px;
+    display: flex;
+}
+.container p{
+text-indent: 0.3in;
+}
+
+</style>
+    </style>
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="navbar">
+                <div class="container">
+                    <div class="page-header">
+                        <nav class="navbar navbar-light bg-light">
+                            <img src="images/logo-buku.png" width="70" height="70" class="d-inline-block align-top" alt="">
+                             Cerita Ku
+                        </nav>
+                    </div>
+                    <nav class="navigation">
+                        <ul>
+                            <li><a href="cerita_indonesia1.html">Pilihan Cerita</a></li>
+                            <li><a href="menu_utama.html">Menu Utama</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+            </div>
+        </header>
+        <div class="p-3 mb-2 text-white" style="background-color: #ED4A4A;">
+            <p class="judulbuku">
+                Anak Gadis Nining Kubaea
+            </p> 
+            <nav class="sound">
+                <img src="images/play.png" id="icon">
+            </nav>
+        </div>
+
+        <audio id="mySong">
+            <source src="Indonesia/Anak Gadis Nining.mp3" type="audio/ogg">
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function() {
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src = "images/pause.png";
+                }else {
+                    mySong.pause();
+                    icon.src = "images/play.png";
+                }
+            }
+        </script>
+        </div>
+        <div class="container" style="padding-top: 30px;">
+            <img class="images" src="images/gadis nining.png" alt="--buatgambardisini--">            <!--Jangan Lupa Ganti-->
+            <p align="justify">                                             <!--Jangan Lupa Ganti-->
+                Pada zaman dahulu, ada seorang janda tua bernama Niining Kubaea. Janda itu tidak mempunyai anak. Sejak ditinggal mati oleh suaminya puluhan tahun yang lalu, Niining tidak pernah menikah lagi. Ia pun tinggal sendirian di sebuah gubuk kecil di tepi sungai. Untuk bertahan hidup, setiap hari Niining Kubaea mencari ikan di sungai dan umbi-umbian di hutan.
+                Suatu hari, sebuah perahu berawak tiga orang berlabuh di tepi sungai. Setelah turun dari perahunya, ketiga awak tersebut menuju ke gubuk tempat tinggal Niining Kubaea. Salah seorang dari mereka sedang menggendong bayi perempuan yang dibungkus dengan kain sutra.
+            </p>
+            <p align="justify">
+                “Permisi!” seru salah seorang dari awak itu, “Apakah ada orang di dalam?”
+                Mengetahui ada tamu yang datang, Niining Kubaea pun segera keluar dari gubuknya. Betapa terkejutnya ia saat melihat tiga orang laki-laki paruh baya berdiri di depan pintunya.
+                “Maaf, Tuan-Tuan! Ada yang bisa Nenek Bantu?” tanya Niining Kubaea.
+                “Nek, kedatangan kami kemari untuk menawarkan bayi ini kepada Nenek,” ungkap salah seorang dari awak perahu itu.
+                “Apa maksud, Tuan?” tanya si Niining.
+                “Kami ingin menjual bayi ini, Nek. Apakah Nenek berkenan membelinya?” awak perahu itu menawarkan.
+                “Oh, sangat kebetulan. Nenek memang tidak mempunyai anak. Selama ini Nenek hanya hidup sendirian,” ungkap si Niining dengan perasaan gembira.
+                Beruntung Niining Kubaea memiliki sedikit tabungan. Akhirnya, ia pun membeli bayi itu dengan uang tabungannya. Setelah menyerahkan bayi itu kepada si Niining, ketiga awak perahu tersebut melanjutkan perjalanan.
+            </p>
+            <p align="justify">
+                Sejak itulah, Niining Kubaea tidak lagi kesepian. Kehadiran bayi itu telah menjadi obat pelipur lara baginya. Ia pun merawat dan membesarkan bayi itu dengan penuh kasih sayang. Ia menyayanginya seperti anak kandung sendiri. Ke mana pun pergi, ia selalu membawanya. Pada usia tujuh tahun, anak angkat Niining Kabeae itu pun sudah pandai bertanam bunga di halaman gubuknya. Bahkan, ia sudah bisa menjualnya sendiri ke pasar.
+                Waktu terus berlalu. Anak itu tumbuh menjadi seorang gadis yang sehat dan berparas cantik. Setiap pemuda yang melihatnya akan berdecak kagum. Jika ia pergi ke pasar menjual bunga, ia selalu menjadi perhatian. Lama-kelamaan, kencantikan anak gadis Niining Kubaea itu tersohor hingga ke seluruh pelosok negeri.
+            </p>
+            <p align="justify">
+                Melihat keadaan itu, Niining Kubaea bukanya merasa senang melainkan khawatir. Ia tidak ingin anak gadisnya itu menjadi perhatian orang, terutama para pemuda. Oleh karena itu, setiap gadis itu hendak ke pasar, ia membendakinya dengan arang agar kecantikannya tidak tampak. Walau demikian, kecantikan gadis itu tetap saja terpancar.
+                Suatu hari, terdengar kabar bahwa raja dari negeri tetangga merasa tersinggung karena kecantikan anak gadis Niining Kubaea melebihi kecantikan putrinya. Apa yang dikhawatirkan si Niining pun terjadilah. Beberapa utusan raja datang ke gubuknya untuk membawa anak gadisnya ke istana.
+                “Ampun, Tuan! Jangan kalian bawa pergi anakku. Dialah satu-satunya milikku di dunia,” rengek Niining Kubaea.
+            </p>
+            <p align="justify">
+                “Maaf, Nek. Kami hanya menjalankan perintah raja. Kami harus membawa kalian berdua ke istana,” kata seorang utusan raja.
+                Niining Kubaea pun tak bisa berbuat apa-apa. Perintah raja harus dipatuhi. Akhirnya, keduanya pun dibawa ke istana. Dalam perjalanan, si Niining senantiasa berdoa kepada Tuhan Yang Mahakuasa agar tidak terjadi sesuatu pada diri mereka, terutama pada anak gadisnya.
+                “Ya, Tuhan! Lindungilah kami,” doa Niining Kubaea.
+                Setiba di istana, keduanya pun langsung dihadapkan kepada sang Raja. Alangkah marahnya sang Raja karena kecantikan gadis itu memang ternyata melebihi kecantikan putrinya.
+                “Hulubalang! Cepat buat lubang dan tiang gantungan!” titah sang Raja, “Gadis ini benar-benar telah membuatku malu.”
+                Beberapa hulubalang istana segera menggali lubang serta menyiapkan tiang dan tali gantungan. Setelah prajurit itu menyelesaikan tugasnya, sang Raja kembali memerintahkan mereka.
+            </p>
+            <p align="justify">
+                “Hulubalang! Bawa anak gadis itu ke tiang gantungan!” titah sang Raja.
+                “Baik, Baginda,” kata hulubalang itu.
+                Saat para hulubalang hendak membawa gadis itu ke tiang gantungan, tiba-tiba Niining Kubaea jatuh pingsan. Meskipun demikian, sang Raja tidak perduli.
+                “Ah, mau pingsan atau mati sekalian, aku tidak perduli. Cepat ikat gadis itu ke tiang gantungan!” perintah sang Raja.
+                Melihat kejadian itu, putra Raja langsung mencegah ayahnya. Rupanya, pangeran itu merasa simpati kepada anak gadis Niining Kubaea.
+                “Tunggu, Ayah! Ananda mohon dengan sangat agar gadis itu jangan dihukum mati. Biarkanlah ia Ananda jadikan istri. Ananda mohon, jangan bunuh ia, Ayah!” pinta sang Pangeran.
+                Meskipun dicegah, sang Raja tetap akan menghukum gadis yang tidak bersalah itu untuk menutupi rasa malunya. Hulubalang pun segera melaksanakan tugasnya. Begitu ia memotong tali gantungan, maka anak Niining Kubaea itu pun terjatuh ke dalam lubang.
+            </p>
+            <p align="justify">
+                Melihat peristiwa tersebut, sang Pangeran dengan cepat ikut terjun ke dalam lubang. Untung ia dapat meraih tubuh gadis itu sebelum jatuh ke dasar lubang. Maka, selamatlah gadis itu dari ancaman maut. Namun, alangkah terkejutnya sang Pangeran saat memeluk erat tubuh gadis itu. Tiba-tiba ia melihat sebuah tanda di belakang kepala sang Gadis.
+                “Hai, bukankah tanda ini sama seperti tanda di kepala adik perempuanku yang dulu hilang sewaktu masih bayi?” gumam sang Pangeran, “Hmmm... jangan-jangan.....?”
+                Sang Pangeran pun segera berteriak dari dalam lubang memanggil ayahnya.
+                “Ayah..., Ayah... !” teriaknya, “Cepat keluarkan kami dari lubang ini!”
+                Sang Raja pun bergegas menuju ke mulut lubang. Ia pun sangat mengkhawatirkan keadaan putranya yang ikut terjun ke dalam lubang itu.
+                “Apakah kamu tidak apa-apa, Putraku?" tanya sang Raja.
+                “Tidak, Ayah. Tolong cepat angkat kami dari lubang ini!” kata sang Pangeran.
+            </p>
+            <p align="justify">
+                Sang Raja pun segera memerintahkan para hulubalang istana untuk mengangkat mereka dari lubang tersebut. Begitu mereka terangkat, sang Pangeran berkata kepada ayahnya.
+                “Ayah, coba lihat tanda di kepala gadis ini!” seru sang Pangeran.
+                Alangkah terkejutnya sang Raja saat melihat tanda itu. Ia langsung teringat pada putrinya yang telah hilang beberapa tahun silam. Maka, ia pun segera memanggil Niining Kubaea untuk menanyakan asal usul gadis itu.
+                “Hai, Niining Kubaea. Apakah gadis ini anak kandungmu sendiri?” tanya sang Raja.
+                “Ampun, Baginda. Sebenarnya, gadis ini bukan anak kandung hamba,” jawab Niining Kubaea. Niining Kubaea kemudian menceritakan perihal bagaimana ia mendapatkan gadis itu.
+                “Belasan tahun yang lalu, ada tiga orang awak kapal mendatangi gubuk hamba. Mereka menawarkan seorang bayi kepada hamba. Karena hamba tidak mempunyai anak, maka hamba pun membeli bayi itu,” ungkap Niining Kubaea.
+            </p>
+            <p align="justify">
+                Mendengar cerita itu, sang Raja menjadi terharu. Ia yakin bahwa sesungguhnya gadis itu adalah putrinya yang hilang diculik ketika masih bayi. Ia pun amat menyesal karena hampir menghilangkan nyawa putrinya sendiri. Tanpa berpikir panjang, ia langsung merangkul gadis itu.
+                “Maafkan Ayahanda, Putriku! Ayahanda benar-benar khilaf,” ucap sang Raja dengan haru.
+                “Sudahlah, Ayahanda! Ananda memaafkan kekhilafan Ayahanda,” kata gadis itu.
+                Suasana yang tadinya gaduh berubah menjadi hening. Perasaan haru pun menyelimuti hati seluruh keluarga istana, termasuk Niining Kubaea. Perempuan paruh baya itu pun tak kuasa menahan air matanya.
+            </p>
+            <p align="justify">
+                Beberapa saat kemudian, sang Raja pun menghampiri Niining Kubaea untuk meminta maaf.
+                “Maafkan atas kelakuanku, Niining,”ucap sang Raja.
+                Tidak lupa pula sang Raja menyampaikan ucapan terima kasih kepada Niining yang telah merawat putrinya hingga tumbuh menjadi seorang gadis. Ia pun menjanjikan perempuan tua itu dengan hadiah yang besar.
+                “Karena engkau telah menyelamatkan putriku, apapun yang kau minta akan kukabulkan,” ujar sang Raja.
+                “Baiklah, Baginda. Hanya satu permintaan hamba,” jawab Niining Kubaea.
+                “Apa itu, Niining? Katakanlah!” desak sang Raja.
+                “Hamba ingin selalu bersama si Gadis. Dia sudah seperti anak kandung hamba,” kata Niining Kubaea.
+                “Baiklah, Niining. Permintaanmu kukabulkan. Engkau boleh tinggal di istana ini bersama keluarga istana,” ujar sang Raja.
+            </p>
+
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
